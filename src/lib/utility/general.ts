@@ -25,3 +25,26 @@ export const navigation = [
         href: '/support'
     }
 ];
+
+import { faker } from '@faker-js/faker';
+
+
+export const createBlogData = (count: number) => {
+
+    const blogs = [];
+
+    for (let i = 0; i < count; i++) {
+        blogs.push({
+            id: i,
+            author: faker.person.firstName() + ' ' + faker.person.lastName(),
+            date: faker.date.past(),
+            title: faker.lorem.sentence(),
+            preview: faker.lorem.paragraph().slice(0, 100) + '...',
+            content: faker.lorem.paragraphs(),
+            image: faker.image.urlLoremFlickr(),
+        })
+    };
+
+    return blogs;
+
+}

@@ -1,9 +1,9 @@
 <script lang="ts">
 </script>
 
-<div id='containerSidebar' class="border border-purple/40 mb-8 pb-4">
-	<div id="topSidebar" class="bg-purple-dark  relative items-center justify-center flex">
-		<div class="absolute text-underline-primary font-primary font-medium text-xl text-center p-4">
+<div id="containerSidebar" class="border border-purple/40 mb-8 pb-4">
+	<div id="topSidebar" class="bg-purple-dark relative items-center justify-center flex">
+		<div class="absolute text-underline-primary font-primary font-medium text-lg text-center p-4">
 			When you have the heart of a priestess, you recognize your power and are dedicated to
 			deciphering the secrets of our world - while remaining temperate, kind, and compassionate.
 		</div>
@@ -23,6 +23,29 @@
 		</button>
 	</div>
 
+	<div class="pt-4 flex items-center justify-center flex-col">
+		<div class="font-primary text-black text-4xl font-bold p-4 underline">Connect</div>
+
+		<div class="font-primary text-black p-4">
+			Keep updated with The Priestess Heart’s latest musings and posts. Follow The Priestess Heart:
+		</div>
+		<div class="flex flex-row justify-center items-center space-x-4 pt-4">
+			<a
+				href="https://www.facebook.com/thepriestessheart"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				<img src="fb.png" alt="facebook" width="64" height="64" />
+			</a>
+			<a
+				href="https://www.instagram.com/thepriestessheart"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
+				<img src="insta.png" alt="instagram" width="64" height="64" />
+			</a>
+		</div>
+	</div>
 	<!-- newsletter -->
 	<div class="pt-4 flex items-center justify-center flex-col">
 		<!-- NEWSLETTER TITLE -->
@@ -51,13 +74,12 @@
 	</div>
 </div>
 
-
 <style>
 	#containerSidebar {
 		width: 280px;
 	}
 	#topSidebar {
-		background-image: url("sidebar_heart.png");
+		background-image: url('sidebar_heart.png');
 		background-repeat: no-repeat;
 		background-position: center;
 		height: 350px;

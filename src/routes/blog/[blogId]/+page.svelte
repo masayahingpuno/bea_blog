@@ -3,17 +3,18 @@
 	import Footer from '$lib/components/Footer.svelte';
 	import Header from '$lib/components/Header.svelte';
 	import Sidebar from '$lib/components/Sidebar.svelte';
-	import type { PageData } from './$types';
+	import type { PageServerData } from './$types';
 
-	export let data: PageData;
+	export let data: PageServerData;
 
-	const title = data.id;
+
+	//console.log(data.posts)
 </script>
 
 <Header />
 <div class="flex flex-row mx-auto container mt-4">
 	<Sidebar />
 	<!-- <Blog /> -->
-	{title}
+	<!-- {data.posts} -->
 </div>
 <Footer />
