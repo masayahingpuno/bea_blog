@@ -40,9 +40,9 @@
 		<div class="flex items-center justify-center flex-col space-y-2">
 			<img src="heart.png" alt="logo" height="180" width="180" />
 			<div
-				class="text-5xl underline font-georgia font-bold text-black py-6 decoration-underline-primary underline-offset-8 decoration-4"
+				class="text-5xl underline font-georgia font-bold text-center text-black py-6 decoration-underline-primary underline-offset-8 decoration-4"
 			>
-				What’s behind “The Priestess Heart?
+				What’s behind <br /> “The Priestess Heart" ?
 			</div>
 			<div class="text-black text-2xl font-georgia text-center tracking-wider leading-10">
 				Are you familiar with tarot cards? I created the idea of the priestess’ heart from one of

@@ -23,10 +23,10 @@
 		</button>
 	</div>
 
-	<div class="pt-4 flex items-center justify-center flex-col">
-		<div class="font-primary text-black text-4xl font-bold p-4 underline">Connect</div>
+	<div class="pt-8 flex items-center justify-center flex-col">
+		<div class="font-georgia text-black text-4xl font-bold p-4">Connect</div>
 
-		<div class="font-primary text-black p-4">
+		<div class="font-primary text-black p-4 text-center">
 			Keep updated with The Priestess Heart’s latest musings and posts. Follow The Priestess Heart:
 		</div>
 		<div class="flex flex-row justify-center items-center space-x-4 pt-4">
@@ -47,10 +47,10 @@
 		</div>
 	</div>
 	<!-- newsletter -->
-	<div class="pt-4 flex items-center justify-center flex-col">
+	<div class="pt-8 flex items-center justify-center flex-col">
 		<!-- NEWSLETTER TITLE -->
-		<div class="font-primary text-black text-4xl font-bold p-4 underline">Newsletter</div>
-		<div class="font-primary text-black p-4">
+		<div class="font-georgia text-black text-4xl font-bold p-4">Newsletter</div>
+		<div class="font-primary text-black p-4 text-center">
 			Don't miss out on the latest articles and updates from this blog. Subscribe to The Priestess
 			Heart newsletter.
 		</div>

@@ -11,7 +11,7 @@ type GlobEntry = {
 export interface Post {
     title: string;
     description: string;
-    date: string;
+    date: Date;
     author: string;
 }
 

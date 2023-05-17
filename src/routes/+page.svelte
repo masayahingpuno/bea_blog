@@ -34,9 +34,9 @@
 				<div
 					class="flex flex-col mx-auto container mt-8 border p-4 justify-between border-gray/10 shadow-lg rounded-md"
 				>
-					<div class="flex flex-row space-4 items-start justify-between">
+					<div class="flex flex-row space-4 items-start justify-around">
 						<div class="pr-4">
-							<div class="text-2xl font-georgia font-bold">{blog.title}</div>
+							<div class="text-xl font-georgia font-bold">{blog.title}</div>
 							<div class="flex flex-row space-x-2 items-center justify-start pt-2">
 								<div class="text-xs font-georgia text-lightblack font-semibold">
 									{blog.author} -
@@ -71,16 +71,16 @@
 							</svg>
 						</button>
 					</div>
-					<div class="flex flex-row w-full items-center justify-center pt-4">
-						<div class="flex-col">
-							<div class="text-xl font-georgia text-lightblack">{blog.preview}</div>
+					<div class="flex flex-col w-full items-center justify-between pt-6">
+						<div class="flex flex-col w-full shadow-md rounded-full">
+							<img src={blog.image} alt="preview" class="shadow-md rounded-md border-2 border-purple/50" />
 						</div>
-						<div class="flex flex-col mx-8 w-full shadow-md rounded-full">
-							<img src={blog.image} alt="preview" width="128" height="128" />
+						<div class="pt-4">
+							<div class="text-md font-georgia text-lightblack">{blog.preview}</div>
 						</div>
 					</div>
 					<button
-						class="p-2 mt-8 font-georgia border border-gray/10 w-full text-center text-gray rounded-sm text-sm font-bold hover:bg-purple hover:text-white transition-colors"
+						class="p-2 mt-4 font-georgia border border-gray/10 w-full text-center text-gray rounded-sm text-sm font-bold hover:bg-purple hover:text-white transition-colors"
 					>
 						Read more...
 					</button>
