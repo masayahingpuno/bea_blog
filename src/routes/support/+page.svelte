@@ -4,6 +4,18 @@
 	import 'iconify-icon';
 </script>
 
+<svelte:head>
+	<title>
+		Support | The Priestess Heart
+	</title>
+
+	<meta name="description" content="The Priestess Heart" />
+
+	<link rel="icon" href="favicon_io/favicon-32x32.png" />
+
+
+</svelte:head>
+
 <Header />
 <div class="mx-auto container px-56 py-28">
 	<div class="text-3xl text-center text-black font-georgia">

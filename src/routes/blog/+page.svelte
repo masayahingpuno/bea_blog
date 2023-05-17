@@ -15,6 +15,15 @@
 	let showFilter = false;
 </script>
 
+<svelte:head>
+	<title>
+		Blog | The Priestess Heart
+	</title>
+
+	<meta name="description" content="The Priestess Heart" />
+
+</svelte:head>
+
 <Header />
 <div class="flex flex-row mx-auto container mt-8">
 	<Sidebar />

@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<div id="containerSidebar" class="border border-purple/40 mb-8 pb-4">
+<div id="containerSidebar" class="border-2 border-purple/30 shadow-md mb-8 pb-4 h-fit">
 	<div id="topSidebar" class="bg-purple-dark relative items-center justify-center flex">
 		<div class="absolute text-underline-primary font-primary font-medium text-lg text-center p-4">
 			When you have the heart of a priestess, you recognize your power and are dedicated to

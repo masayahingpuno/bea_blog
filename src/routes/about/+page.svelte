@@ -3,6 +3,20 @@
 	import Header from '../../lib/components/Header.svelte';
 </script>
 
+<svelte:head>
+	<title>
+		
+		About | The Priestess Heart
+	</title>
+
+	<meta name="description" content="The Priestess Heart" />
+
+	<link rel="icon" href="favicon_io/favicon-32x32.png" />
+
+
+</svelte:head>
+
+
 <Header />
 <div class="py-8 px-2 container mx-auto flex flex-col justify-center items-center">
 	<div class="">

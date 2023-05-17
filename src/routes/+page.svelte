@@ -13,6 +13,14 @@
 	$: console.log(selectedBookmark);
 </script>
 
+<svelte:head>
+	<title>The Priestess Heart</title>
+
+	<link rel="icon" href="favicon_io/favicon-32x32.png" />
+
+	<meta name="description" content="The Priestess Heart" />
+</svelte:head>
+
 <Header />
 <!-- main story -->
 <div class="mx-auto container flex space-x-4 justify-between my-8 flex-row">
@@ -32,7 +40,7 @@
 		<div class="grid-cols-3 grid mx-auto container gap-4 my-8">
 			{#each data as blog}
 				<div
-					class="flex flex-col mx-auto container mt-8 border p-4 justify-between border-gray/10 shadow-lg rounded-md"
+					class="hover:border-purple transition-all flex flex-col mx-auto container mt-8 border-2 p-4 justify-between border-gray/20 shadow-xl rounded-md"
 				>
 					<div class="flex flex-row space-4 items-start justify-around">
 						<div class="pr-4">
@@ -73,7 +81,11 @@
 					</div>
 					<div class="flex flex-col w-full items-center justify-between pt-6">
 						<div class="flex flex-col w-full shadow-md rounded-full">
-							<img src={blog.image} alt="preview" class="shadow-md rounded-md border-2 border-purple/50" />
+							<img
+								src={blog.image}
+								alt="preview"
+								class="shadow-md rounded-md border-2 border-purple/20"
+							/>
 						</div>
 						<div class="pt-4">
 							<div class="text-md font-georgia text-lightblack">{blog.preview}</div>
