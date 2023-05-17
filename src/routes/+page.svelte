@@ -19,6 +19,11 @@
 	<link rel="icon" href="favicon_io/favicon-32x32.png" />
 
 	<meta name="description" content="The Priestess Heart" />
+
+	<meta
+    property="og:image"
+    content="https://og-examples.vercel.sh/api/static"
+  />
 </svelte:head>
 
 <Header />

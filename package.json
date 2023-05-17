@@ -38,6 +38,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@vercel/og": "^0.5.4",
 		"date-fns": "^2.30.0",
 		"iconify-icon": "^1.0.7"
 	}
