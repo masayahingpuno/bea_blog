@@ -15,7 +15,7 @@
 
 	<meta property="og:site_name" content="The Priestess Heart" />
 	<meta property="og:locale" content="en" />
-	<meta property="og:url" content="https://thepriestessheart.com/dummy" />
+	<meta property="og:url" content="https://thepriestessheart.vercel.app/dummy" />
 	<meta property="og:type" content="article" />
 	<meta
 		property="og:title"
