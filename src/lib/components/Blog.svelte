@@ -2,18 +2,7 @@
 	import Share from './Share.svelte';
 </script>
 
-<svelte:head>
-	<title
-		>Towards Miracles and Mysticism: The Story of ‘Day Fe and the Wonders of Faith | The Priestess
-		Heart</title
-	>
 
-	<meta name="description" content="The Priestess Heart" />
-
-	<meta name="og:image" content="heart.png" />
-
-	<link rel="icon" href="favicon_io/favicon-32x32.png" />
-</svelte:head>
 
 <div class="pr-28 pl-10">
 	<div class="font-noto-sans font-semibold" style="color: #7575A6;">BLOG NO. 1</div>
