@@ -115,7 +115,7 @@
 			<button
 				class="p-2 mt-4 font-georgia border border-gray/10 w-full text-center text-gray rounded-sm text-sm font-bold hover:bg-purple hover:text-white transition-colors"
 			>
-				Read more...
+				<a href={`dummy`}>Read more</a>
 			</button>
 		</div>
 			{/each}

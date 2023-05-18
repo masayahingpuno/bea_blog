@@ -6,11 +6,10 @@
 	import { format } from 'date-fns';
 	import Sidebar from '$lib/components/Sidebar.svelte';
 
-	const data = createBlogData(10);
+	const data = createBlogData(0);
 
 	let selectedBookmark = [0, 1, 2] as number[];
 
-	$: console.log(selectedBookmark);
 </script>
 
 <svelte:head>
@@ -20,24 +19,34 @@
 
 	<meta name="description" content="The Priestess Heart" />
 
-	<meta
-    property="og:image"
-    content="http://localhost:5173/og"
-  />
+	<meta property="og:image" content="http://localhost:5173/og" />
 </svelte:head>
 
 <Header />
 <!-- main story -->
 <div class=" mx-4 flex space-x-4 justify-between my-8 flex-row">
 	<div class="">
-		<div class=" py-8 border my-4 px-6 border-gray/10 shadow-lg rounded-xl flex items-center">
-			<img src={faker.image.urlLoremFlickr()} alt="feature story" height="128" class="w-1/2" />
-			<div class="px-4 text-center">
-				<div class="font-primary font-bold text-lightblack text-6xl">
-					A cat in the hut save a bat in the nut
-				</div>
-				<div class="px-8 pt-4 text-xl">
-					{faker.lorem.paragraphs(5)}
+		<div
+			class=" py-6 border my-4 px-6 border-gray/20 shadow-lg rounded-md flex flex-col items-center"
+		>
+			<div class="font-primary font-bold text-black text-4xl p-4 text-center">
+				Towards Miracles and Mysticism: The Story of ‘Day Fe and the Wonders of Faith
+			</div>
+			<div class="px-4 flex-row flex py-8 items-center">
+				.
+				<img
+					src="dayfe_healing.png"
+					alt="feature story"
+					height="150"
+					width="500"
+					class="border-8 border-purple/40 rounded-xl shadow-lg"
+				/>
+				<div class="px-8 pt-4 text-md text-center font-georgia">
+					Read the story of Day Fe, a healer who has been practicing her craft for more than 20
+					years, as she shares her journey towards miracles and mysticism including the testimonies
+					of her patients.
+
+					<a href="dummy" class="text-purple underline font-medium font-georgia"> Read more... </a>
 				</div>
 			</div>
 		</div>

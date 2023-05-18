@@ -59,6 +59,13 @@
 				blessed water, avoiding certain types of food, avoiding unpleasant emotions (like anger and
 				worry), wearing a scapular or other religious paraphernalia, regular prayers, and following
 				her suggested number of days of healing.
+
+				<div class="flex items-center justify-center m-4 flex-col">
+					<img src="dayfe_healing.png" alt="manaog" width="400" height="400" />
+					<div class="font-georgia font-xs w-1/2 text-center pt-4 italic text-gray">
+						`Day Fe healing a patient
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="">
@@ -73,7 +80,6 @@
 				blends with the sky because of its bright blue color.
 
 				<br />
-			
 
 				<div class="flex items-center justify-center m-4 flex-col">
 					<img src="manaog.png" alt="manaog" width="400" height="400" />
@@ -99,14 +105,12 @@
 					</div>
 				</div>
 
-
 				<div class="flex items-center justify-center m-4 flex-col">
 					<img src="two.png" alt="manaog" width="400" height="400" />
 					<div class="font-georgia font-xs w-1/2 text-center pt-4 italic text-gray">
 						The author and ‘Day Fe
 					</div>
 				</div>
-				
 
 				Even though I already knew she would know, you can still imagine how surprised I was. By the
 				end of April 2023, I have accomplished the interviews and transcriptions for my research.
@@ -193,8 +197,6 @@
 				Fe and the individuals (names withheld for confidentiality).
 
 				<br />
-
-				
 
 				<div class="flex items-center justify-center m-4 flex-col">
 					<img src="many.png" alt="manaog" width="400" height="400" />
