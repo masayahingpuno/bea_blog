@@ -1,5 +1,19 @@
 <script lang="ts">
+	import Share from './Share.svelte';
 </script>
+
+<svelte:head>
+	<title
+		>Towards Miracles and Mysticism: The Story of ‘Day Fe and the Wonders of Faith | The Priestess
+		Heart</title
+	>
+
+	<meta name="description" content="The Priestess Heart" />
+
+	<meta name="og:image" content="heart.png" />
+
+	<link rel="icon" href="favicon_io/favicon-32x32.png" />
+</svelte:head>
 
 <div class="pr-28 pl-10">
 	<div class="font-noto-sans font-semibold" style="color: #7575A6;">BLOG NO. 1</div>
@@ -28,14 +42,20 @@
 			recognized as Inday Fe or ‘Day Fe.
 		</div>
 		<div class="flex items-center justify-center m-4 flex-col">
-			<img src="dayfe.png" alt="dayfe" width="400" height="400" />
+			<img
+				src="dayfe.png"
+				alt="dayfe"
+				width="400"
+				height="400"
+				class="border-8 border-purple/40 shadow-md rounded-md"
+			/>
 			<div class="font-georgia font-xs w-1/2 text-center pt-4 italic text-gray">
 				Maria Fe Vidal aka `Day Fe attending a christening at a local chapel in Cebu City
 			</div>
 		</div>
 		<div class="flex flex-col">
 			<div
-				class="font-primary underline decoration-4 underline-offset-8 decoration-cyan text-4xl italic font-bold"
+				class="font-georgia underline decoration-4 underline-offset-8 decoration-cyan text-4xl italic font-bold"
 			>
 				‘Day Fe’s method
 			</div>
@@ -61,7 +81,13 @@
 				her suggested number of days of healing.
 
 				<div class="flex items-center justify-center m-4 flex-col">
-					<img src="dayfe_healing.png" alt="manaog" width="400" height="400" />
+					<img
+						src="dayfe_healing.png"
+						alt="manaog"
+						width="400"
+						height="400"
+						class="border-8 border-purple/40 shadow-md rounded-md"
+					/>
 					<div class="font-georgia font-xs w-1/2 text-center pt-4 italic text-gray">
 						`Day Fe healing a patient
 					</div>
@@ -70,7 +96,7 @@
 		</div>
 		<div class="">
 			<div
-				class="font-primary underline decoration-4 underline-offset-8 decoration-cyan text-4xl italic font-bold"
+				class="font-georgia underline decoration-4 underline-offset-8 decoration-cyan text-4xl italic font-bold"
 			>
 				How my research started
 			</div>
@@ -82,7 +108,13 @@
 				<br />
 
 				<div class="flex items-center justify-center m-4 flex-col">
-					<img src="manaog.png" alt="manaog" width="400" height="400" />
+					<img
+						src="manaog.png"
+						alt="manaog"
+						width="400"
+						height="400"
+						class="border-8 border-purple/40 shadow-md rounded-md"
+					/>
 					<div class="font-georgia font-xs w-1/2 text-center pt-4 italic text-gray">
 						The life-sized statue of Our Lady of Manaog in Manaog, Leyte
 					</div>
@@ -106,7 +138,13 @@
 				</div>
 
 				<div class="flex items-center justify-center m-4 flex-col">
-					<img src="two.png" alt="manaog" width="400" height="400" />
+					<img
+						src="two.png"
+						alt="manaog"
+						width="400"
+						height="400"
+						class="border-8 border-purple/40 shadow-md rounded-md"
+					/>
 					<div class="font-georgia font-xs w-1/2 text-center pt-4 italic text-gray">
 						The author and ‘Day Fe
 					</div>
@@ -152,12 +190,14 @@
 
 				<br />
 
-				<!-- <div class="flex items-center justify-center m-4">
-					<img src="mary.png" alt="mary" width="400" height="400" />
-				</div> -->
-
 				<div class="flex items-center justify-center m-4 flex-col">
-					<img src="mary.png" alt="manaog" width="400" height="400" />
+					<img
+						src="mary.png"
+						alt="manaog"
+						width="400"
+						height="400"
+						class="border-8 border-purple/40 shadow-md rounded-md"
+					/>
 					<div class="font-georgia font-xs w-1/2 text-center pt-4 italic text-gray">
 						The statue of the Virgin Mary in `Day Fe’s yard
 					</div>
@@ -199,7 +239,13 @@
 				<br />
 
 				<div class="flex items-center justify-center m-4 flex-col">
-					<img src="many.png" alt="manaog" width="400" height="400" />
+					<img
+						src="many.png"
+						alt="manaog"
+						width="400"
+						height="400"
+						class="border-8 border-purple/40 shadow-md rounded-md"
+					/>
 					<div class="font-georgia font-xs w-1/2 text-center pt-4 italic text-gray">
 						Individuals patiently wait for their turn to be healed by `Day Fe
 					</div>
@@ -311,12 +357,14 @@
 
 				<br />
 
-				<!-- <div class="flex items-center justify-center m-4">
-					<img src="outside.png" alt="outside" width="400" height="400" />
-				</div> -->
-
 				<div class="flex items-center justify-center m-4 flex-col">
-					<img src="outside.png" alt="manaog" width="400" height="400" />
+					<img
+						src="outside.png"
+						alt="manaog"
+						width="400"
+						height="400"
+						class="border-8 border-purple/40 shadow-md rounded-md"
+					/>
 					<div class="font-georgia font-xs w-1/2 text-center pt-4 italic text-gray">
 						The entrance of `Day Fe’s home in sitio Lourdes, Lower Jagobiao, Mandaue City
 					</div>
@@ -328,11 +376,20 @@
 				believe that the real testimonials above are enough to back up this study. My primary intent
 				in writing this research and blog is to share the story of ‘Day Fe and what she does in the
 				hopes that it may reach the eyes and ears of people who are looking for a miracle. Write me
-				an email or head on to the ‘contact’ page if you wish to visit ‘Day Fe in her home. It is
-				impossible to deny the reality of sickness, despair, tragedy, and our mortality on earth –
-				but choosing to believe there is a ray of light in the midst of hovering dark clouds will
-				make these things bearable and possible to overcome. Don’t you think?
+				an email or head on to the
+				<a target="”_blank”" href="/contact" class="text-purple underline font-semibold">
+					contact
+				</a>
+				page if you wish to visit ‘Day Fe in her home.
+
+				<br />
+				<br />
+
+				It is impossible to deny the reality of sickness, despair, tragedy, and our mortality on
+				earth – but choosing to believe there is a ray of light in the midst of hovering dark clouds
+				will make these things bearable and possible to overcome. Don’t you think?
 			</div>
 		</div>
 	</div>
+	<Share />
 </div>

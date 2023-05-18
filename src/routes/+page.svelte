@@ -41,7 +41,7 @@
 					width="500"
 					class="border-8 border-purple/40 rounded-xl shadow-lg"
 				/>
-				<div class="px-8 pt-4 text-md text-center font-georgia">
+				<div class="px-8 pt-4 text-xl text-center font-georgia">
 					Read the story of Day Fe, a healer who has been practicing her craft for more than 20
 					years, as she shares her journey towards miracles and mysticism including the testimonies
 					of her patients.
