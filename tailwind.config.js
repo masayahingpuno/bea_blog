@@ -18,7 +18,7 @@ export default {
       'primary': ['Playfair Display'],
       'caveat': ['Caveat', 'cursive'],
       'noto-sans': ['Noto Sans', 'sans-serif'],
-      'georgia': ['Noto Sans Georgian', 'sans-serif'],
+      'georgia': 'georgia',
     }
 
   },

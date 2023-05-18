@@ -22,13 +22,13 @@
 
 	<meta
     property="og:image"
-    content="https://og-examples.vercel.sh/api/static"
+    content="http://localhost:5173/og"
   />
 </svelte:head>
 
 <Header />
 <!-- main story -->
-<div class="mx-auto container flex space-x-4 justify-between my-8 flex-row">
+<div class=" mx-4 flex space-x-4 justify-between my-8 flex-row">
 	<div class="">
 		<div class=" py-8 border my-4 px-6 border-gray/10 shadow-lg rounded-xl flex items-center">
 			<img src={faker.image.urlLoremFlickr()} alt="feature story" height="128" class="w-1/2" />
@@ -49,7 +49,7 @@
 				>
 					<div class="flex flex-row space-4 items-start justify-around">
 						<div class="pr-4">
-							<div class="text-xl font-georgia font-bold">{blog.title}</div>
+							<div class="text-xl font-georgia font-semibold">{blog.title}</div>
 							<div class="flex flex-row space-x-2 items-center justify-start pt-2">
 								<div class="text-xs font-georgia text-lightblack font-semibold">
 									{blog.author} -

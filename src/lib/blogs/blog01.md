@@ -68,5 +68,7 @@ Instead of going through surgery, she went to ‘Day Fe again and relied on fait
 ## Ovarian Cyst 
 	In 2015, a 46-year-old woman found out that she had a 7-cm ovarian cyst that was active and growing. Her husband told her to undergo an operation but she wouldn’t. Instead of paying a huge amount of money for surgery, the woman went to ‘Day Fe for healing. After one month, she went back to the hospital for a check-up and was happy to find out that her cyst had become smaller and inactive. She is 54 years old today and healthy. She said that she never took any medicine for maintenance and only relied on prayers, ‘Day Fe’s healing, and some blessed water. 
 (Insert photo 8 here)
+
 Dozens of people have been healed by ‘Day Fe but I couldn’t reach out to all of them. I believe that the real testimonials above are enough to back up this study. My primary intent in writing this research and blog is to share the story of ‘Day Fe and what she does in the hopes that it may reach the eyes and ears of people who are looking for a miracle. Write me an email or head on to the ‘contact’ page if you wish to visit ‘Day Fe in her home.
 It is impossible to deny the reality of sickness, despair, tragedy, and our mortality on earth – but choosing to believe there is a ray of light in the midst of hovering dark clouds will make these things bearable and possible to overcome. Don’t you think?
+

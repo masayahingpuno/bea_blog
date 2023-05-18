@@ -2,3 +2,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'georgia';
+        font-style: regular;
+        font-weight: 400;
+        src: local(''), url('fonts/georgia/Georgia Regular font.ttf') format('truetype');
+    }
+    @font-face {
+        font-family: 'georgia';
+        font-style: bold;
+        font-weight: 900;
+        src: local(''), url('fonts/georgia/georgia bold.ttf') format('truetype');
+    }
+
+    @font-face {
+        font-family: 'georgia';
+        font-style: italic;
+        font-weight: 400;
+        src: local(''), url('fonts/georgia/Georgia Italic.ttf') format('truetype');
+    }
+}
