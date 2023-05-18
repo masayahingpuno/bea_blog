@@ -32,7 +32,6 @@
 
 	<link rel="icon" href="favicon_io/favicon-32x32.png" />
 </svelte:head>
-
 <Header />
 <div class="flex flex-row py-8 px-4">
 	<Sidebar />
