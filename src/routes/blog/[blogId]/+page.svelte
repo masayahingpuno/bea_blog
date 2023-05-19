@@ -38,7 +38,7 @@
 </svelte:head>
 
 <Header />
-<article class="dark dark:bg-gray-900 flex flex-row justify-center py-10">
+<article class=" dark:bg-gray-900 flex flex-row justify-center py-10">
 	<div class="prose dark:prose-invert">
 		<Toc>
 			<span class="hover:text-purple-500"  let:heading slot="toc-item">
@@ -54,7 +54,8 @@
 		<div class="font-noto-sans font-semibold text-purple-400 text-xs md:text-sm">BLOG NO. 1</div>
 		<div class="py-2">
 			<div
-				class="dark:text-gray-300 border-2 border-purple-400 rounded-md p-2 shadow-md font-primary text-2xl md:text-3xl font-bold w-fit text-purple-400 bg-purple-800 my-2"
+				class="dark:text-gray-300 border-2 dark:border-purple-400 rounded-md p-2 shadow-md font-primary 
+				text-2xl md:text-3xl font-bold w-fit text-purple-400 dark:bg-purple-800 bg-purple-100 my-2"
 			>
 				Towards Miracles and Mysticism: <br />The Story of ‘Day Fe and the Wonders of Faith
 			</div>
@@ -65,7 +66,10 @@
 			Bea Javier
 		</div>
 		<div
-			class="prose lg:prose-xl prose-slate dark:prose-invert prose-p:indent-16 prose-img:border-4 prose-img:border-purple-800 prose-img:shadow-md prose-img:rounded-md prose-img:mb-0 prose-em:text-sm prose-em:text-gray-400 prose-em:italic prose-em:text-center prose-h1:pt-8 prose-h2:pt-4"
+			class="prose lg:prose-xl prose-slate dark:prose-invert prose-p:indent-12 prose-img:border-4 
+			dark:prose-img:border-purple-800 prose-img:border-purple-200 prose-img:shadow-md prose-img:rounded-md 
+			prose-img:mb-0 prose-em:text-sm dark:prose-em:text-gray-400 prose-em:text-gray-700 prose-em:italic 
+			prose-em:text-center prose-h1:pt-8 prose-h2:pt-4"
 		>
 			<svelte:component this={data.component} />
 		</div>
