@@ -10,6 +10,29 @@
 		rows: 4,
 		placeholder: 'Leave a comment...'
 	};
+
+	import emailjs from '@emailjs/browser';
+
+	const PUBLIC_KEY = '4L2MXpBVNd02yhih8';
+	const SERVICE_ID = 'service_fxtauxu';
+	const TEMPLATE_ID = 'template_1qpfvue';
+	let isSending = false;
+	let isSent = false;
+
+	function sendEmail(e) {
+		isSending = true;
+		emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, PUBLIC_KEY).then(
+			(result) => {
+				console.log('SUCCESS!', result.text);
+				isSending = false;
+				isSent = true;
+			},
+			(error) => {
+				console.log('FAILED...', error.text);
+				isSending = false;
+			}
+		);
+	}
 </script>
 
 <svelte:head>
@@ -51,24 +74,39 @@
 				placeholder="Your message here"
 			/>
 			<button class="h-12 bg-purple text-white rounded-lg">Send</button> -->
-			<Label class="block mb-2">Your name</Label>
-			<Input label="Name" id="name" name="name" required placeholder="John Doe" />
 
-			<Label class="block mb-2">Your email</Label>
-			<Input label="Email" id="email" name="email" required placeholder="user@email.com" />
+			<form on:submit|preventDefault={sendEmail}>
+				<Label class="block mb-2">Your name</Label>
+				<Input label="Name" id="name" name="name" required placeholder="John Reyes" />
 
-			<Label class="block mb-2">Your message</Label>
-			<Textarea {...textareaprops} />
-			<!-- <Helper class="text-sm mt-2"
+				<Label class="block mb-2">Your email</Label>
+				<Input label="Email" id="email" name="email" required placeholder="user@email.com" />
+
+				<Label class="block mb-2">Your message</Label>
+				<Textarea {...textareaprops} />
+				<!-- <Helper class="text-sm mt-2"
 				>We’ll never share your details. Read our <a
 					href="/"
 					class="font-medium text-purple-600 hover:underline dark:text-purple-500">Privacy Policy</a
 				>.</Helper
 			> -->
 
-			<div class="py-4" />
+				{#if isSent}
+					<div class="pt-2 text-lg font-bold text-green-500 text-center">Message sent!</div>
+				{/if}
 
-			<GradientButton shadow color="purple">Send</GradientButton>
+				<div class="py-4" />
+
+				<div class="flex items-center justify-center">
+					{#if !isSending}
+						<GradientButton size="lg" type="submit" shadow color="purple">Send</GradientButton>
+					{:else}
+						<GradientButton size="lg" type="submit" shadow color="purple" disabled
+							>Sending...</GradientButton
+						>
+					{/if}
+				</div>
+			</form>
 		</div>
 	</div>
 </div>

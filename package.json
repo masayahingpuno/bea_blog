@@ -41,6 +41,7 @@
 	"type": "module",
 	"dependencies": {
 		"@bentoproject/social-share": "^1.2302271541.0",
+		"@emailjs/browser": "^3.11.0",
 		"@ethercorps/sveltekit-og": "^1.2.2",
 		"@popperjs/core": "^2.11.7",
 		"@resvg/resvg-js": "^2.4.1",
