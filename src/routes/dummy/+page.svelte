@@ -5,7 +5,7 @@
 	import Sidebar from '$lib/components/Sidebar.svelte';
 </script>
 
-<svelte:head>
+<!-- <svelte:head>
 	<title
 		>Towards Miracles and Mysticism: The Story of ‘Day Fe and the Wonders of Faith | The Priestess
 		Heart</title
@@ -31,7 +31,7 @@
 	<meta property="og:image:height" content="627" />
 
 	<link rel="icon" href="favicon_io/favicon-32x32.png" />
-</svelte:head>
+</svelte:head> -->
 <Header />
 <div class="dark dark:bg-gray-900 flex flex-row py-8 px-4">
 	<div class="hidden md:block">

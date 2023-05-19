@@ -2,7 +2,7 @@
 	import { Facebook} from 'svelte-share-buttons-component';
 
 	const title = "share"
-	const url = "https://thepriestessheart.vercel.app/dummy"
+	const url = "https://thepriestessheart.vercel.app/blog/blog01"
 </script>
 
 
