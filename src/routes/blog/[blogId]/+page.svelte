@@ -10,7 +10,8 @@
 
 <svelte:head>
 	<title
-		>{data.post?.title}</title
+		>Towards Miracles and Mysticism: The Story of ‘Day Fe and the Wonders of Faith | The Priestess
+		Heart</title
 	>
 
 	<meta name="description" content="The Priestess Heart" />
@@ -21,13 +22,13 @@
 	<meta property="og:type" content="article" />
 	<meta
 		property="og:title"
-		content={data.post?.title}
+		content="Towards Miracles and Mysticism: The Story of ‘Day Fe and the Wonders of Faith"
 	/>
 	<meta
 		property="og:description"
-		content={data.post?.description}
+		content="Read the story of Day Fe, a healer who has been practicing her craft for more than 20 years, as she shares her journey towards miracles and mysticism including the testimonies of her patients."
 	/>
-	<meta property="og:image" content={data.post?.image} />
+	<meta property="og:image" content="/dayfe.png" />
 	<meta property="og:image:alt" content="The Priestess Heart" />
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="627" />
