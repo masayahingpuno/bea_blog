@@ -90,6 +90,8 @@ Instead of going through surgery, she went to ‘Day Fe again and relied on fait
 *The entrance of `Day Fe’s home in sitio Lourdes, Lower Jagobiao, Mandaue City*
 
 
-Dozens of people have been healed by ‘Day Fe but I couldn’t reach out to all of them. I believe that the real testimonials above are enough to back up this study. My primary intent in writing this research and blog is to share the story of ‘Day Fe and what she does in the hopes that it may reach the eyes and ears of people who are looking for a miracle. Write me an email or head on to the ‘contact’ page if you wish to visit ‘Day Fe in her home.
+Dozens of people have been healed by ‘Day Fe but I couldn’t reach out to all of them. I believe that the real testimonials above are enough to back up this study. My primary intent in writing this research and blog is to share the story of ‘Day Fe and what she does in the hopes that it may reach the eyes and ears of people who are looking for a miracle. Write me an email or head on to the [contact](/contact) page if you wish to visit ‘Day Fe in her home.
+
+
 It is impossible to deny the reality of sickness, despair, tragedy, and our mortality on earth – but choosing to believe there is a ray of light in the midst of hovering dark clouds will make these things bearable and possible to overcome. Don’t you think?
 

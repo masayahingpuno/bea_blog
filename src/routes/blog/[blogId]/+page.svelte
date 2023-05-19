@@ -69,8 +69,8 @@
 			class="prose lg:prose-xl prose-slate dark:prose-invert prose-p:indent-12 prose-img:border-4 
 			dark:prose-img:border-purple-800 prose-img:border-purple-200 prose-img:shadow-md prose-img:rounded-md 
 			prose-img:mb-0 prose-em:text-sm dark:prose-em:text-gray-400 prose-em:text-gray-700 prose-em:italic 
-			prose-em:text-center prose-h1:pt-8 prose-h2:pt-4 prose-em:flex prose-em:flex-row prose-em:justify-center prose-em:p-2
-			flex flex-col justify-center items-center"
+			prose-h1:pt-4 prose-h2:pt-4 prose-h1:justify-start
+			items-start flex flex-col prose-img:mx-28 prose-em:mx-28"
 		>
 			<svelte:component this={data.component} />
 		</div>
