@@ -40,8 +40,8 @@
 
 
 <div
-	class="md:hidden bg-purple-400/80 w-full px-5  pt-4 pb-2 flex flex-row justify-between border-b 
-	border-black/30 shadow-md"
+	class="md:hidden bg-purple-400 dark:bg-purple-600  w-full px-5  pt-4 pb-2 flex flex-row 
+	justify-between border-b border-black/30 shadow-md"
 >
 	<div class="">
 		<img src="/logo_name.png" alt="logo" width="200" height="80" />
@@ -62,12 +62,13 @@
 	</button>
 </div>
 {#if open}
-	<div class="md:hidden w-full bg-white/90 p-2 transition-all">
+	<div class="dark:bg-gray-900 md:hidden w-full bg-white/90 p-2 transition-all">
 		<div class="flex flex-col justify-between items-start">
 			{#each navigation as nav}
 				<a on:click={() => currentNavigation.set(nav.href)} href={nav.href}>
 					<div
-						class={`text-black font-georgia hover:text-black/90 hover:bg-black/20 rounded-md p-2 transition-all text-sm font-bold
+						class={`text-black dark:text-gray-100 font-georgia hover:text-black/90 
+						hover:bg-black/20 rounded-md p-2 transition-all text-sm font-bold
 						${
 							$currentNavigation === nav.href
 								? 'underline decoration-cyan decoration-2 underline-offset-8'

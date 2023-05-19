@@ -1,7 +1,7 @@
 
 // src/lib/server/posts.ts
 
-import { parse } from 'path';
+// import { parse } from 'path';
 
 type GlobEntry = {
     metadata: Post;
@@ -24,7 +24,7 @@ export const posts = Object.entries(
         return {
             ...globEntry.metadata,
             // generate the slug from the file path
-            slug: parse(filepath).name,
+            slug: filepath.slice(0, -3).split('/').pop() || '',
         };
     })
     // sort by date

@@ -1,35 +1,26 @@
 <script lang="ts">
 	import Toc from 'svelte-toc';
-	import Blog from '$lib/components/Blog.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import Header from '$lib/components/Header.svelte';
 	import Share from '$lib/components/Share.svelte';
-	import Sidebar from '$lib/components/Sidebar.svelte';
 
 	export let data;
+
+	const post = data.posts[0];
 </script>
 
 <svelte:head>
-	<title
-		>Towards Miracles and Mysticism: The Story of ‘Day Fe and the Wonders of Faith | The Priestess
-		Heart</title
-	>
+	<title>{post.title}</title>
 
 	<meta name="description" content="The Priestess Heart" />
 
 	<meta property="og:site_name" content="The Priestess Heart" />
 	<meta property="og:locale" content="en" />
-	<meta property="og:url" content="https://thepriestessheart.vercel.app/blog/blog01" />
+	<meta property="og:url" content={`https://thepriestessheart.vercel.app/blog/${post.slug}`} />
 	<meta property="og:type" content="article" />
-	<meta
-		property="og:title"
-		content="Towards Miracles and Mysticism: The Story of ‘Day Fe and the Wonders of Faith"
-	/>
-	<meta
-		property="og:description"
-		content="Read the story of Day Fe, a healer who has been practicing her craft for more than 20 years, as she shares her journey towards miracles and mysticism including the testimonies of her patients."
-	/>
-	<meta property="og:image" content="/dayfe.png" />
+	<meta property="og:title" content={post.title} />
+	<meta property="og:description" content={post.description} />
+	<meta property="og:image" content={`/${post.image}`} />
 	<meta property="og:image:alt" content="The Priestess Heart" />
 	<meta property="og:image:width" content="512" />
 	<meta property="og:image:height" content="512" />
@@ -40,8 +31,17 @@
 <Header />
 <article class=" dark:bg-gray-900 flex flex-row justify-center py-10">
 	<div class="prose dark:prose-invert">
-		<Toc>
-			<span class="hover:text-purple-500"  let:heading slot="toc-item">
+		<Toc
+			title="On this article"
+			--toc-desktop-aside-margin="10em 0 0 0"
+			--toc-desktop-sticky-top="3em"
+			--toc-desktop-width="15em"
+			--toc-title-padding="0 0 0.8em 0"
+			--toc-overflow="auto"
+			--toc-active-bg="#9333ea"
+			--toc-li-hover-color="#9333ea"
+		>
+			<span class="" let:heading slot="toc-item">
 				{heading.innerText}
 			</span>
 		</Toc>
@@ -50,28 +50,31 @@
 	<!-- <div class="hidden md:block">
 		<Sidebar />
 	</div> -->
-	<div class="md:pr-28 md:pl-10 px-4">
-		<div class="font-noto-sans font-semibold text-purple-400 text-xs md:text-sm">BLOG NO. 1</div>
-		<div class="py-2">
+	<div class="md:pl-10 px-4">
+		<div class="font-noto-sans font-semibold text-purple-400 text-xs md:text-sm">
+			BLOG NO. {data.posts.length}
+		</div>
+		<div class="py-2 lg:w-2/3">
 			<div
-				class="dark:text-gray-300 border-2 dark:border-purple-400 rounded-md p-2 shadow-md font-primary 
-				text-2xl md:text-3xl font-bold w-fit text-purple-400 dark:bg-purple-800 bg-purple-100 my-2"
+				class="dark:text-gray-300 border-2 dark:border-purple-400 rounded-md p-2 shadow-md font-primary
+				text-2xl md:text-3xl font-bold w-fit text-purple-800 dark:bg-purple-800 bg-purple-100 my-2"
 			>
-				Towards Miracles and Mysticism: <br />The Story of ‘Day Fe and the Wonders of Faith
+				{post.title}
 			</div>
 		</div>
-		<div class="border w-full border-black/20" />
 
 		<div class="font-noto-sans font-semibold text-xs md:text-sm py-2 text-purple-400">
-			Bea Javier
+			{post.author}
 		</div>
+		<div class="w-full mt-4 mb-8" />
 		<div
-			class="prose lg:prose-xl prose-slate dark:prose-invert prose-p:indent-12 prose-img:border-4 
-			dark:prose-img:border-purple-800 prose-img:border-purple-200 prose-img:shadow-md prose-img:rounded-md 
-			prose-img:mb-0 prose-em:text-sm dark:prose-em:text-gray-400 prose-em:text-gray-700 prose-em:italic 
+			class="prose lg:prose-md prose-slate dark:prose-invert prose-p:indent-12 prose-img:border-4
+			dark:prose-img:border-purple-800 prose-img:border-purple-400 prose-img:shadow-md prose-img:rounded-md
+			prose-img:mb-0 prose-em:text-sm dark:prose-em:text-gray-400 prose-em:text-gray-700 prose-em:italic
 			prose-h1:pt-4 prose-h2:pt-4 prose-headings:flex prose-headings:flex-col prose-headings:items-baseline
-			prose-headings:justify-start prose-img:flex prose-img:flex-col prose-img:items-center 
-			prose-img:justify-stretch prose-img:w-full prose-em:flex prose-em:flex-col prose-em:items-center prose-em:pt-2"
+			prose-headings:justify-start prose-img:flex prose-img:flex-col prose-img:items-center
+			prose-img:justify-stretch prose-img:w-full prose-em:flex prose-em:flex-col prose-em:items-center
+			prose-em:pt-2 prose-p:font-georgia prose-headings:font-georgia"
 		>
 			<svelte:component this={data.component} />
 		</div>

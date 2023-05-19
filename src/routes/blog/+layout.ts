@@ -1,9 +1,9 @@
-import type { PageServerLoad } from './$types';
+import type { LayoutLoad } from './$types';
 import { posts } from '$lib/utility/posts';
 
 
 export const load = (async () => {
     return {
-        posts,
+        posts: posts,
     };
-}) satisfies PageServerLoad;
+}) satisfies LayoutLoad;
