@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+Georgian:wght@300;400;500;600;700;800;900&family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+Georgian:wght@300;400;500;600;700;800;900&family=Noto+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Playfair+Display:ital,wght@0,400;0,500;0,700;0,800;1,400&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,19 +8,19 @@
         font-family: 'georgia';
         font-style: regular;
         font-weight: 400;
-        src: local(''), url('fonts/georgia/Georgia Regular font.ttf') format('truetype');
+        src: local(''), url('/fonts/georgia/georgia_regular.ttf') format('truetype');
     }
     @font-face {
         font-family: 'georgia';
         font-style: bold;
         font-weight: 900;
-        src: local(''), url('fonts/georgia/georgia bold.ttf') format('truetype');
+        src: local(''), url('/fonts/georgia/georgia_bold.ttf') format('truetype');
     }
 
     @font-face {
         font-family: 'georgia';
         font-style: italic;
         font-weight: 400;
-        src: local(''), url('fonts/georgia/Georgia Italic.ttf') format('truetype');
+        src: local(''), url('/fonts/georgia/georgia_italic.ttf') format('truetype');
     }
 }

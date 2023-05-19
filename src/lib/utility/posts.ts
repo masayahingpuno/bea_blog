@@ -13,6 +13,7 @@ export interface Post {
     description: string;
     date: Date;
     author: string;
+    image: string;
 }
 
 // Get all posts and add metadata

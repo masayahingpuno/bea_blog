@@ -4,26 +4,38 @@ title: "Towards Miracles and Mysticism: The Story of ‘Day Fe and the Wonders o
 author: "Bea Javier"
 description: "A research on the life of a clairvoyant healer and her methods of healing"
 date: "2023-05-15"
+image: "dayfe.png"
 ---
 
 I first encountered mystical women who practice alternative healing in 2005. I was six years old. As a child, I was prone to coughs that lasted for weeks. Store-bought medicines couldn’t help me, so my mother took me to a traditional healer, an old woman, who gave me a fuchsia-colored tonic to drink for a couple of days. It was made from a certain bark of a tree that she grew in her yard. Whatever her story was or whether she was a mystic healer or not, my coughs suddenly stopped because of that tonic she gave me and I was able to live a simple childhood. I never saw her again, but the curiosity I have for those types of people remained with me. It was not until my father started coughing blood in 2012 that my family decided to reach out to another healer in Lower Jagobiao, Mandaue City in Sitio Lourdes. The healer is recognized as Inday Fe or ‘Day Fe.
 
-![Day Fe Picture]('dayfe.png')
+![Day Fe Picture](/dayfe.png)
+*Maria Fe Vidal aka `Day Fe attending a christening at a local chapel in Cebu City*
+
 
 ## ‘Day Fe’s method
 Based on my observations back then, ‘Day Fe’s practices were different from the methods of other traditional healers. The local healers that I know of relied on their ancestors, elves, and “dili-ingon nato” (in Cebuano dialect) or supernatural nature beings for their ability to heal (as what they claim). But ‘Day Fe depends on the Virgin Mary and the Holy Trinity for what she does. Aside from healing, ‘Day Fe is also a clairvoyant (which means she can look into a person and instantly know who the person is, what they’re feeling, what they desire, and what their possible future looks like). 
 This is how ‘Day Fe’s method of healing goes: First, she will ask the individual to confess their sins. Second, she will say a prayer and begin the procedure by putting her hand on the specific area of the body where the discomfort is felt or where the source of the illness is located. The amount of time of the healing would depend on how severe the pain is. When the session is over, ‘Day Fe recommends ways to help the person heal faster such as using her blessed water, avoiding certain types of food, avoiding unpleasant emotions (like anger and worry), wearing a scapular or other religious paraphernalia, regular prayers, and following her suggested number of days of healing. 
-				(Insert photo 1 here)
+
+![Day Fe Healing](/dayfe_healing.png)
+*`Day Fe healing a patient*
+
 
 
 ## How my research started
 While visiting a friend in Leyte last February 2023, we happened to pass by a tranquil place of prayer called the church of Our Lady of Marangog. The building, high and tall, almost blends with the sky because of its bright blue color. 
-(Insert photo 2 here)
+
+![The life-sized statue of Our Lady of Manaog in Manaog, Leyte](/manaog.png)
+*The life-sized statue of Our Lady of Manaog in Manaog, Leyte*
+
+
 Here’s the thing: I was stuck with finding a research topic for a subject called “Research in Oral Literary Traditions.” But upon entering the church, I saw a life-sized statue of the Virgin Mary similar to the one in ‘Day Fe’s yard. I immediately remembered her and realized that not a lot of people know about what she does or who she is, so I decided to tell her story as well as find out the significant events in her life that led her to become a clairvoyant healer. On March 8, 2023, I visited her again. Before I could say anything or tell her about my plans, she sat down on one of the porch chairs and told me:
 
 > “Bea, make sure you set a schedule for what you are wishing to ask me because it will take a lot of time to tell you about my history for your research or book.”
 
-(Insert photo 3 here)
+![Author and day fe](/two.png)
+*The author and ‘Day Fe*
+
 Even though I already knew she would know, you can still imagine how surprised I was. By the end of April 2023, I have accomplished the interviews and transcriptions for my research. 
 The following discourse is the product of the first two phases. Read my whole research and the life story of ‘Day Fe [here].
 
@@ -35,7 +47,11 @@ The following discourse is the product of the first two phases. Read my whole re
 
 The newfound abilities scared her at first, but she put all her faith in the Virgin Mary and decided to let go of any fear. She said that she could now tell what people were feeling emotionally and physically just by looking at their faces or knowing their names. ‘Day Fe was now able to discover a person’s desires and secrets. She laughed when she told me this.
 According to her, this gift was from the Virgin Mary herself and the blessing was from the Holy Trinity. The number of people who visit ‘Day Fe’s home also keeps growing as months and years pass by. ‘Day Fe’s time and energy kept declining as well because of the hours she spent healing and attending to dozens and dozens of people from her town and other barangays. She prayed to the Virgin Mary for days to request guidance and assistance. 
-(Insert photo 5 here)
+
+![The statue of the Virgin Mary in `Day Fe’s yard](/mary.png)
+*The statue of the Virgin Mary in `Day Fe’s yard*
+
+
 One morning, she was asked by the Blessed Mother to gather bottles and gallons of clean water in the yard, hold out her hand, and say a blessing. The Virgin Mary taught her how to bless the clean waters for the people to drink and use for their healing at home. When asked during the interview about the significance of using water as a medium for healing, ‘Day Fe said that the statue of the Holy Mother responded to her mentally with these exact words:
 	
 > “Because water is essential to the body
@@ -46,7 +62,9 @@ Many ill individuals come to her home. People who have lost their faith, who are
 
 # The wonders of faith
 	I was able to reach out and speak to some people who personally experienced ‘Day Fe’s healing and clairvoyancy. What is written below is based on a one-on-one interview with ‘Day Fe and the individuals (names withheld for confidentiality).
-(Insert photo 9 here)
+![Individuals patiently wait for their turn to be healed by `Day Fe](/many.png)
+*Individuals patiently wait for their turn to be healed by `Day Fe*
+
 
 ## A Diagnosis of Stage 4 Breast Cancer and OI
 	A 46-year old female was diagnosed last September 2022 with stage 4 breast cancer and brittle bone disease or Osteogenesis imperfecta (OI), a disease in which bones fracture or break easily often with no injury or cause (National Institutes of Health). She and her sister went to the University of Cebu’s Medical Center (UCMed) for treatment but the doctors said that she was already in critical condition and would require immediate laser treatment for her bones and chemotherapy for her cancer. If not, the doctors said she can only live for at least 3-4 months after the diagnosis. 
@@ -66,8 +84,11 @@ She remembered ‘Day Fe, whose children were her students in high school. She d
 Instead of going through surgery, she went to ‘Day Fe again and relied on faith, ‘Day Fe’s touch, and the Virgin Mary’s blessed water. Her swollen lymph nodes went back to normal in 2015. Until now, she and her family always visit ‘Day Fe as much as they can.
 
 ## Ovarian Cyst 
-	In 2015, a 46-year-old woman found out that she had a 7-cm ovarian cyst that was active and growing. Her husband told her to undergo an operation but she wouldn’t. Instead of paying a huge amount of money for surgery, the woman went to ‘Day Fe for healing. After one month, she went back to the hospital for a check-up and was happy to find out that her cyst had become smaller and inactive. She is 54 years old today and healthy. She said that she never took any medicine for maintenance and only relied on prayers, ‘Day Fe’s healing, and some blessed water. 
-(Insert photo 8 here)
+	In 2015, a 46-year-old woman found out that she had a 7-cm ovarian cyst that was active and growing. Her husband told her to undergo an operation but she wouldn’t. Instead of paying a huge amount of money for surgery, the woman went to ‘Day Fe for healing. After one month, she went back to the hospital for a check-up and was happy to find out that her cyst had become smaller and inactive. She is 54 years old today and healthy. She said that she never took any medicine for maintenance and only relied on prayers, ‘Day Fe’s healing, and some blessed water.
+
+![The entrance of `Day Fe’s home in sitio Lourdes, Lower Jagobiao, Mandaue City](/outside.png)
+*The entrance of `Day Fe’s home in sitio Lourdes, Lower Jagobiao, Mandaue City*
+
 
 Dozens of people have been healed by ‘Day Fe but I couldn’t reach out to all of them. I believe that the real testimonials above are enough to back up this study. My primary intent in writing this research and blog is to share the story of ‘Day Fe and what she does in the hopes that it may reach the eyes and ears of people who are looking for a miracle. Write me an email or head on to the ‘contact’ page if you wish to visit ‘Day Fe in her home.
 It is impossible to deny the reality of sickness, despair, tragedy, and our mortality on earth – but choosing to believe there is a ray of light in the midst of hovering dark clouds will make these things bearable and possible to overcome. Don’t you think?

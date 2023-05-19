@@ -6,10 +6,12 @@
 	import { format } from 'date-fns';
 	import Sidebar from '$lib/components/Sidebar.svelte';
 
-	const data = createBlogData(0);
+	const data = createBlogData(15);
 
 	let selectedBookmark = [0, 1, 2] as number[];
 
+	import { Card, Button, Toggle, GradientButton } from 'flowbite-svelte';
+	let vCard = false;
 </script>
 
 <svelte:head>
@@ -24,36 +26,40 @@
 
 <Header />
 <!-- main story -->
-<div class=" mx-4 flex space-x-4 justify-between my-8 flex-row">
+<div class="dark dark:bg-gray-900 py-8 px-4 flex justify-around flex-row">
 	<div class="">
-		<div
-			class=" py-6 border my-4 px-6 border-gray/20 shadow-lg rounded-md flex flex-col items-center"
-		>
-			<div class="font-primary font-bold text-black text-4xl p-4 text-center">
+		<div class="py-8 md:px-6 rounded-md flex flex-col items-start">
+			<div class="font-georgia font-bold text-black dark:text-white text-4xl md:p-4 text-center">
 				Towards Miracles and Mysticism: The Story of ‘Day Fe and the Wonders of Faith
 			</div>
-			<div class="px-4 flex-row flex py-8 items-center">
-				.
+			<div class="px-4 flex-col lg:flex-row flex py-8 items-center">
 				<img
 					src="dayfe_healing.png"
 					alt="feature story"
 					height="150"
 					width="500"
-					class="border-8 border-purple/40 rounded-xl shadow-lg"
+					class="border-4 border-purple-400/20 rounded-xl shadow-lg"
 				/>
-				<div class="px-8 pt-4 text-xl text-center font-georgia">
-					Read the story of Day Fe, a healer who has been practicing her craft for more than 20
-					years, as she shares her journey towards miracles and mysticism including the testimonies
-					of her patients.
-
-					<a href="dummy" class="text-purple underline font-medium font-georgia"> Read more... </a>
+				<div class="flex flex-col items-center justify-center">
+					<div class="pt-4 lg:pt-0 md:px-8 text-xl text-center font-georgia dark:text-white">
+						Read the story of Day Fe, a healer who has been practicing her craft for more than 20
+						years, as she shares her journey towards miracles and mysticism including the
+						testimonies of her patients.
+					</div>
+					<div class="py-8">
+						<GradientButton size="xl" shadow color="purple">
+							<a href="dummy" class="text-white font-bold font-georgia"> Read more </a>
+						</GradientButton>
+					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="grid-cols-3 grid mx-auto container gap-4 my-8">
+		<div class="md:py-28" />
+
+		<div class="lg:grid-cols-3 md:grid-cols-2 grid-cols-1 grid md:mx-8 gap-8 my-8">
 			{#each data as blog}
-				<div
+				<!-- <div
 					class="hover:border-purple transition-all flex flex-col mx-auto container mt-8 border-2 p-4 justify-between border-gray/20 shadow-xl rounded-md"
 				>
 					<div class="flex flex-row space-4 items-start justify-around">
@@ -110,10 +116,40 @@
 					>
 						Read more...
 					</button>
+				</div> -->
+				<div>
+					<Card img={blog.image} reverse={vCard}>
+						<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+							{blog.title}
+						</h5>
+						<p class="mb-3 font-normal text-gray-700 dark:text-gray-400 leading-tight">
+							{blog.preview}
+						</p>
+						<!-- <Button>
+						Read more <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 ml-2"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>
+					  </Button> -->
+						<GradientButton shadow color="purple">
+							Read more <svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="w-5 h-5 ml-2"
+								><path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"
+								/></svg
+							>
+						</GradientButton>
+					</Card>
 				</div>
 			{/each}
 		</div>
 	</div>
-	<Sidebar />
+	<div class="hidden md:block">
+		<Sidebar />
+	</div>
 </div>
 <Footer />

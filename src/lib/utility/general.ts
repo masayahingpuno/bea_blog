@@ -41,7 +41,7 @@ export const createBlogData = (count: number) => {
             title: faker.lorem.sentence(),
             preview: faker.lorem.paragraph().slice(0, 100) + '...',
             content: faker.lorem.paragraphs(),
-            image: faker.image.urlLoremFlickr(),
+            image: faker.image.urlPicsumPhotos(),
         })
     };
 

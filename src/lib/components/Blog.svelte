@@ -2,23 +2,21 @@
 	import Share from './Share.svelte';
 </script>
 
-
-
-<div class="pr-28 pl-10">
-	<div class="font-noto-sans font-semibold" style="color: #7575A6;">BLOG NO. 1</div>
+<div class="md:pr-28 md:pl-10">
+	<div class="font-noto-sans font-semibold text-purple-400 text-xs md:text-sm">BLOG NO. 1</div>
 	<div class="py-2">
-		<div class="p-1 font-primary text-5xl font-bold text-purple bg-cyan w-fit my-2">
-			Towards Miracles and Mysticism:
+		<div
+			class="dark:text-gray-300 border-2 border-purple-400 rounded-md p-2 shadow-md font-primary text-2xl md:text-3xl font-bold w-fit text-purple-400 bg-purple-800 my-2"
+		>
+			Towards Miracles and Mysticism: <br />The Story of ‘Day Fe and the Wonders of Faith
 		</div>
-		<div class="p-1 font-primary text-5xl font-bold text-purple bg-cyan w-fit">
-			The Story of ‘Day Fe and the Wonders of Faith
-		</div>
+	
 	</div>
 	<div class="border w-full border-black/20" />
 
-	<div class="font-noto-sans font-semibold text-sm py-2" style="color: #7575A6;">Bea Javier</div>
+	<div class="font-noto-sans font-semibold text-xs md:text-sm py-2 text-purple-400">Bea Javier</div>
 	<div class="flex flex-col space-y-8">
-		<div class="pt-8 font-georgia text-left text-md text-black leading-10">
+		<div class="dark:text-white pt-8 font-georgia text-left text-md text-black leading-10">
 			I first encountered mystical women who practice alternative healing in 2005. I was six years
 			old. As a child, I was prone to coughs that lasted for weeks. Store-bought medicines couldn’t
 			help me, so my mother took me to a traditional healer, an old woman, who gave me a
@@ -32,23 +30,23 @@
 		</div>
 		<div class="flex items-center justify-center m-4 flex-col">
 			<img
-				src="dayfe.png"
+				src="/dayfe.png"
 				alt="dayfe"
 				width="400"
 				height="400"
-				class="border-8 border-purple/40 shadow-md rounded-md"
+				class="border-4 border-purple-400/40 shadow-md rounded-md"
 			/>
-			<div class="font-georgia font-xs w-1/2 text-center pt-4 italic text-gray">
+			<div class="font-georgia font-xs md:w-96 text-center pt-4 italic text-gray dark:text-gray-500">
 				Maria Fe Vidal aka `Day Fe attending a christening at a local chapel in Cebu City
 			</div>
 		</div>
 		<div class="flex flex-col">
 			<div
-				class="font-georgia underline decoration-4 underline-offset-8 decoration-cyan text-4xl italic font-bold"
+				class="dark:text-white font-georgia underline decoration-4 underline-offset-8 decoration-cyan text-4xl italic font-bold"
 			>
 				‘Day Fe’s method
 			</div>
-			<div class="pt-8 font-georgia text-left text-md text-black leading-10">
+			<div class="dark:text-white pt-8 font-georgia text-left text-md text-black leading-10">
 				Based on my observations back then, ‘Day Fe’s practices were different from the methods of
 				other traditional healers. The local healers that I know of relied on their ancestors,
 				elves, and “dili-ingon nato” (in Cebuano dialect) or supernatural nature beings for their
@@ -71,13 +69,13 @@
 
 				<div class="flex items-center justify-center m-4 flex-col">
 					<img
-						src="dayfe_healing.png"
+						src="/dayfe_healing.png"
 						alt="manaog"
 						width="400"
 						height="400"
 						class="border-8 border-purple/40 shadow-md rounded-md"
 					/>
-					<div class="font-georgia font-xs w-1/2 text-center pt-4 italic text-gray">
+					<div class="dark:text-white font-georgia font-xs w-1/2 text-center pt-4 italic text-gray">
 						`Day Fe healing a patient
 					</div>
 				</div>
@@ -85,11 +83,11 @@
 		</div>
 		<div class="">
 			<div
-				class="font-georgia underline decoration-4 underline-offset-8 decoration-cyan text-4xl italic font-bold"
+				class="dark:text-white font-georgia underline decoration-4 underline-offset-8 decoration-cyan text-4xl italic font-bold"
 			>
 				How my research started
 			</div>
-			<div class="pt-8 font-georgia text-left text-md text-black leading-10">
+			<div class="dark:text-white pt-8 font-georgia text-left text-md text-black leading-10">
 				While visiting a friend in Leyte last February 2023, we happened to pass by a tranquil place
 				of prayer called the church of Our Lady of Marangog. The building, high and tall, almost
 				blends with the sky because of its bright blue color.
@@ -98,7 +96,7 @@
 
 				<div class="flex items-center justify-center m-4 flex-col">
 					<img
-						src="manaog.png"
+						src="/manaog.png"
 						alt="manaog"
 						width="400"
 						height="400"
@@ -118,9 +116,9 @@
 				tell her about my plans, she sat down on one of the porch chairs and told me:
 
 				<div class="flex flex-row border border-black/10 shadow-md rounded-md my-8 space-x-8 p-6">
-					<img src="quote.png" alt="one" width="150" height="200" />
+					<img src="/quote.png" alt="one" width="150" height="200" />
 
-					<div class="text-2xl italic font-georgia font-medium">
+					<div class="dark:text-white text-2xl italic font-georgia font-medium">
 						“Bea, make sure you set a schedule for what you are wishing to ask me because it will
 						take a lot of time to tell you about my history for your research or book.”
 					</div>
@@ -128,13 +126,13 @@
 
 				<div class="flex items-center justify-center m-4 flex-col">
 					<img
-						src="two.png"
+						src="/two.png"
 						alt="manaog"
 						width="400"
 						height="400"
 						class="border-8 border-purple/40 shadow-md rounded-md"
 					/>
-					<div class="font-georgia font-xs w-1/2 text-center pt-4 italic text-gray">
+					<div class="dark:text-white font-georgia font-xs w-1/2 text-center pt-4 italic text-gray">
 						The author and ‘Day Fe
 					</div>
 				</div>
@@ -147,19 +145,19 @@
 		</div>
 		<div class="">
 			<div
-				class="font-georgia underline decoration-4 underline-offset-8 decoration-cyan text-4xl italic font-bold"
+				class="dark:text-white font-georgia underline decoration-4 underline-offset-8 decoration-cyan text-4xl italic font-bold"
 			>
 				The Story of ‘Day Fe
 			</div>
-			<div class="pt-8 font-georgia text-left text-md text-black leading-10">
+			<div class="dark:text-white pt-8 font-georgia text-left text-md text-black leading-10">
 				‘Day Fe’s healing and clairvoyant skills began after Pope John Paul II and the Virgin Mary’s
 				appearance on the dawn of November 4, 2004. These are the exact words that Pope John Paul II
 				uttered in her dream/vision:
 
 				<div class="flex flex-row border border-black/10 shadow-md rounded-md my-8 space-x-8 p-6">
-					<img src="quote.png" alt="one" width="150" height="200" />
+					<img src="/quote.png" alt="one" width="150" height="200" />
 
-					<div class="text-2xl italic font-georgia font-medium">
+					<div class="dark:text-white text-2xl italic font-georgia font-medium">
 						“Wake up. Wake up, my daughter. You are chosen by God. Say to the whole world that God
 						is existing and loves all the people.”
 					</div>
@@ -181,13 +179,13 @@
 
 				<div class="flex items-center justify-center m-4 flex-col">
 					<img
-						src="mary.png"
+						src="/mary.png"
 						alt="manaog"
 						width="400"
 						height="400"
 						class="border-8 border-purple/40 shadow-md rounded-md"
 					/>
-					<div class="font-georgia font-xs w-1/2 text-center pt-4 italic text-gray">
+					<div class="dark:text-white font-georgia font-xs w-1/2 text-center pt-4 italic text-gray">
 						The statue of the Virgin Mary in `Day Fe’s yard
 					</div>
 				</div>
@@ -200,9 +198,9 @@
 				statue of the Holy Mother responded to her mentally with these exact words:
 
 				<div class="flex flex-row border border-black/10 shadow-md rounded-md my-8 space-x-8 p-6">
-					<img src="quote.png" alt="one" width="150" height="200" />
+					<img src="/quote.png" alt="one" width="150" height="200" />
 
-					<div class="text-2xl italic font-georgia font-medium">
+					<div class="dark:text-white text-2xl italic font-georgia font-medium">
 						“Because water is essential to the body Water cleanses the heart and soul Water is
 						temperamental.”
 					</div>
@@ -216,11 +214,11 @@
 		</div>
 		<div class="">
 			<div
-				class="font-georgia underline decoration-4 underline-offset-8 decoration-cyan text-4xl italic font-bold"
+				class="dark:text-white font-georgia underline decoration-4 underline-offset-8 decoration-cyan text-4xl italic font-bold"
 			>
 				The wonders of faith
 			</div>
-			<div class="pt-8 font-georgia text-left text-md text-black leading-10">
+			<div class="dark:text-white pt-8 font-georgia text-left text-md text-black leading-10">
 				I was able to reach out and speak to some people who personally experienced ‘Day Fe’s
 				healing and clairvoyancy. What is written below is based on a one-on-one interview with ‘Day
 				Fe and the individuals (names withheld for confidentiality).
@@ -229,13 +227,13 @@
 
 				<div class="flex items-center justify-center m-4 flex-col">
 					<img
-						src="many.png"
+						src="/many.png"
 						alt="manaog"
 						width="400"
 						height="400"
 						class="border-8 border-purple/40 shadow-md rounded-md"
 					/>
-					<div class="font-georgia font-xs w-1/2 text-center pt-4 italic text-gray">
+					<div class="dark:text-white font-georgia font-xs w-1/2 text-center pt-4 italic text-gray">
 						Individuals patiently wait for their turn to be healed by `Day Fe
 					</div>
 				</div>
@@ -243,11 +241,11 @@
 		</div>
 		<div class="">
 			<div
-				class="font-georgia underline decoration-4 underline-offset-8 decoration-cyan text-4xl italic font-bold"
+				class="dark:text-white font-georgia underline decoration-4 underline-offset-8 decoration-cyan text-4xl italic font-bold"
 			>
 				A Diagnosis of Stage 4 Breast Cancer and OI
 			</div>
-			<div class="pt-8 font-georgia text-left text-md text-black leading-10">
+			<div class="dark:text-white pt-8 font-georgia text-left text-md text-black leading-10">
 				A 46-year old female was diagnosed last September 2022 with stage 4 breast cancer and
 				brittle bone disease or Osteogenesis imperfecta (OI), a disease in which bones fracture or
 				break easily often with no injury or cause (National Institutes of Health). She and her
@@ -266,11 +264,11 @@
 
 		<div class="">
 			<div
-				class="font-georgia underline decoration-4 underline-offset-8 decoration-cyan text-4xl italic font-bold"
+				class="dark:text-white font-georgia underline decoration-4 underline-offset-8 decoration-cyan text-4xl italic font-bold"
 			>
 				A Life Saved
 			</div>
-			<div class="pt-8 font-georgia text-left text-md text-black leading-10">
+			<div class="dark:text-white pt-8 font-georgia text-left text-md text-black leading-10">
 				Two young women visited ‘Day Fe in 2016. Upon healing the first young woman, ‘Day Fe sensed
 				a strange energy from the second one. Apparently, this young woman was planning to end her
 				life that day. When ‘Day Fe told them this, the second young woman cried. How could ‘Day Fe
@@ -288,11 +286,11 @@
 
 		<div class="">
 			<div
-				class="font-georgia underline decoration-4 underline-offset-8 decoration-cyan text-4xl italic font-bold"
+				class="dark:text-white font-georgia underline decoration-4 underline-offset-8 decoration-cyan text-4xl italic font-bold"
 			>
 				Nosebleeds and a Fever
 			</div>
-			<div class="pt-8 font-georgia text-left text-md text-black leading-10">
+			<div class="dark:text-white pt-8 font-georgia text-left text-md text-black leading-10">
 				In Barangay Camputhaw, a 51-year-old female said she knew about ‘Day Fe from her stay-out
 				house maid and neighbor. During that time, she had a high fever that included frequent nose
 				bleeding. Her two daughters kept getting nose bleeds too even at school. This had gone for
@@ -308,11 +306,11 @@
 
 		<div class="">
 			<div
-				class="font-georgia underline decoration-4 underline-offset-8 decoration-cyan text-4xl italic font-bold"
+				class="dark:text-white font-georgia underline decoration-4 underline-offset-8 decoration-cyan text-4xl italic font-bold"
 			>
 				A Mother and Son Healed
 			</div>
-			<div class="pt-8 font-georgia text-left text-md text-black leading-10">
+			<div class="dark:text-white pt-8 font-georgia text-left text-md text-black leading-10">
 				Last 2007, a young man who had a cyst on his left neck caused him severe pain. He and his
 				mother had a consultation with his company doctor at work where he was provided with
 				antibiotics. Unfortunately, after a month, the cyst still remained on his left neck. They
@@ -331,11 +329,11 @@
 		</div>
 		<div class="">
 			<div
-				class="font-georgia underline decoration-4 underline-offset-8 decoration-cyan text-4xl italic font-bold"
+				class="dark:text-white font-georgia underline decoration-4 underline-offset-8 decoration-cyan text-4xl italic font-bold"
 			>
 				Ovarian Cyst
 			</div>
-			<div class="pt-8 font-georgia text-left text-md text-black leading-10">
+			<div class="dark:text-white pt-8 font-georgia text-left text-md text-black leading-10">
 				In 2015, a 46-year-old woman found out that she had a 7-cm ovarian cyst that was active and
 				growing. Her husband told her to undergo an operation but she wouldn’t. Instead of paying a
 				huge amount of money for surgery, the woman went to ‘Day Fe for healing. After one month,
@@ -348,13 +346,13 @@
 
 				<div class="flex items-center justify-center m-4 flex-col">
 					<img
-						src="outside.png"
+						src="/outside.png"
 						alt="manaog"
 						width="400"
 						height="400"
 						class="border-8 border-purple/40 shadow-md rounded-md"
 					/>
-					<div class="font-georgia font-xs w-1/2 text-center pt-4 italic text-gray">
+					<div class="dark:text-white font-georgia font-xs w-1/2 text-center pt-4 italic text-gray">
 						The entrance of `Day Fe’s home in sitio Lourdes, Lower Jagobiao, Mandaue City
 					</div>
 				</div>
@@ -382,3 +380,5 @@
 	</div>
 	<Share />
 </div>
+
+<style></style>
