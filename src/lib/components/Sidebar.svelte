@@ -1,5 +1,11 @@
 <script lang="ts">
 	import { GradientButton, Input } from 'flowbite-svelte';
+
+	let isClickSubscribe = false;
+
+	function handleSubscribe() {
+		isClickSubscribe = true;
+	}
 </script>
 
 <div
@@ -76,14 +82,21 @@
 			Don't miss out on the latest articles and updates from this blog. Subscribe to The Priestess
 			Heart newsletter.
 		</div>
-		<div class="space-y-2 pt-4 px-4">
-			<Input label="Email" id="email" name="email" required placeholder="user@email.com" />
+		<form class="flex flex-col items-center justify-center" on:submit|preventDefault={handleSubscribe}>
+			<div class="space-y-2 pt-4 px-4">
+				<Input label="Email" id="email" name="email" required placeholder="user@email.com" />
 
-			<Input label="Name" id="name" name="name" required placeholder="John Doe" />
-		</div>
-		<div class="py-2 m-2">
-			<GradientButton size="md" shadow color="purple">Subscribe</GradientButton>
-		</div>
+				<Input label="Name" id="name" name="name" required placeholder="John Doe" />
+			</div>
+			{#if isClickSubscribe}
+				<div class="dark:text-white font-nunito text-black p-4 text-center">
+					Thank you for subscribing!
+				</div>
+			{/if}
+			<div class="py-2 m-2">
+				<GradientButton type="submit" size="md" shadow color="purple">Subscribe</GradientButton>
+			</div>
+		</form>
 	</div>
 </div>
 
