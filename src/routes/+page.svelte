@@ -47,7 +47,7 @@
 					</div>
 					<div class="py-8">
 						<GradientButton size="xl" shadow color="purple">
-							<a href="dummy" class="text-white font-bold font-georgia"> Read more </a>
+							<a href="blog/blog01" class="text-white font-bold font-georgia"> Read more </a>
 						</GradientButton>
 					</div>
 				</div>
