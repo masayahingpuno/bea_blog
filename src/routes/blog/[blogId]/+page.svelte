@@ -2,6 +2,7 @@
 	import Blog from '$lib/components/Blog.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import Header from '$lib/components/Header.svelte';
+	import Share from '$lib/components/Share.svelte';
 	import Sidebar from '$lib/components/Sidebar.svelte';
 	import Toc from 'svelte-toc';
 
@@ -64,7 +65,14 @@
 		>
 			<svelte:component this={data.component} />
 		</div>
+		<div class="mt-16 border-t-2 border-gray-500">
+			<div class="dark:text-white text-xl py-4">
+				Share this article:
+			</div>
+			<Share />
+		</div>
 	</div>
+	
 </article>
 
 <Footer />
