@@ -41,7 +41,7 @@
 				/>
 				<div class="flex flex-col items-center justify-center">
 					<div class="pt-4 lg:pt-0 md:px-8 text-xl text-center font-georgia text-gray-800 dark:text-white">
-						Read the story of Day Fe, a healer who has been practicing her craft for more than 20
+						Read the story of `Day Fe, a healer who has been practicing her craft for more than 20
 						years, as she shares her journey towards miracles and mysticism including the
 						testimonies of her patients.
 					</div>

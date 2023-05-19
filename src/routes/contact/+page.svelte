@@ -59,12 +59,12 @@
 
 			<Label class="block mb-2">Your message</Label>
 			<Textarea {...textareaprops} />
-			<Helper class="text-sm mt-2"
+			<!-- <Helper class="text-sm mt-2"
 				>We’ll never share your details. Read our <a
 					href="/"
 					class="font-medium text-purple-600 hover:underline dark:text-purple-500">Privacy Policy</a
 				>.</Helper
-			>
+			> -->
 
 			<div class="py-4" />
 

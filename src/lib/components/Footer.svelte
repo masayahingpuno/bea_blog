@@ -25,11 +25,11 @@
 
 <div
 	class="dark:bg-gray-900 hidden md:block py-28 flex-col justify-center items-center space-y-12 bg-gradient-to-r 
-	from-cyan-200 to-purple-400 border-t dark:border-gray-500 "
+	from-cyan-200 to-purple-500 border-t dark:border-gray-500 "
 >
-	<div class="flex flex-row space-x-4 items-center">
+	<div class="flex flex-row space-x-28 items-center justify-center">
 		<div class="">
-			<img src="/Group 13.png" alt="logo" class=" w-1/2 mx-auto" />
+			<img src="/Group 13.png" alt="logo" class="w-96" />
 		</div>
 		<div class="flex space-x-4">
 			{#each navigation as nav}
@@ -54,7 +54,7 @@
 	class="dark:bg-gray-900 p-2 md:hidden flex-col justify-center items-center space-y-4 bg-gradient-to-r 
 	from-cyan to-purple"
 >
-	<div class="flex flex-col space-y-4 items-center justify-between">
+	<div class="flex flex-col space-y-4 items-center  justify-between">
 		<div class="">
 			<img src="/Group 13.png" alt="logo" class="" />
 		</div>
