@@ -11,7 +11,6 @@
 	let selectedBookmark = [0, 1, 2] as number[];
 
 	import { Card, Button, Toggle, GradientButton } from 'flowbite-svelte';
-	let vCard = false;
 </script>
 
 <svelte:head>
@@ -118,7 +117,7 @@
 					</button>
 				</div> -->
 				<div>
-					<Card img={blog.image} reverse={vCard}>
+					<Card img={blog.image}>
 						<h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
 							{blog.title}
 						</h5>

@@ -7,16 +7,12 @@
 	class="relative border-2 border-purple-400/20 rounded-lg shadow-md mb-8 pb-4 h-fit"
 >
 	<div id="topSidebar" class="bg-purple-dark relative blur-md items-center justify-center flex" />
-	<div
-		class="dark:text-gray-100 absolute top-10 left-2 w-52  font-nunito text-md text-center p-4"
-	>
+	<div class="dark:text-gray-100 absolute top-10 left-2 w-52 font-nunito text-md text-center p-4">
 		When you have the heart of a priestess, you recognize your power and are dedicated to
 		deciphering the secrets of our world - while remaining temperate, kind, and compassionate.
 	</div>
 	<div class="flex items-center justify-center flex-col py-4">
-		<div
-			class="dark:text-white text-center tracking-wider font-georgia leading-6 p-4  text-sm"
-		>
+		<div class="dark:text-white text-center tracking-wider font-georgia leading-6 p-4 text-sm">
 			The original purpose of this blog was to publicize the findings of my research on the life of
 			a clairvoyant healer in Cebu. But I've decided that I should publish more than one content and
 			make this site functional. Here, you wild find articles, short essays, and poems about the
@@ -25,7 +21,9 @@
 		</div>
 
 		<div class="py-2 m-2">
-			<GradientButton size="md" shadow color="purple">Support this blog</GradientButton>
+			<GradientButton size="md" shadow color="purple">
+				<a href="/support">Support this blog</a>
+			</GradientButton>
 		</div>
 	</div>
 
