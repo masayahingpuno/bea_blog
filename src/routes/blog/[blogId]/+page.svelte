@@ -34,7 +34,7 @@
 	<meta property="og:image:width" content="512" />
 	<meta property="og:image:height" content="512" />
 
-	<link rel="icon" href="/favicon_io/favicon-32x32.png" />
+	<link rel="icon" href="/dayfe.png" />
 </svelte:head>
 
 <Header />
