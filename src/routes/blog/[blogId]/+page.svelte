@@ -19,7 +19,7 @@
 
 	<meta property="og:site_name" content="The Priestess Heart" />
 	<meta property="og:locale" content="en" />
-	<meta property="og:url" content="https://thepriestessheart.vercel.app/dummy" />
+	<meta property="og:url" content="https://thepriestessheart.vercel.app/blog/blog01" />
 	<meta property="og:type" content="article" />
 	<meta
 		property="og:title"
@@ -66,13 +66,10 @@
 			<svelte:component this={data.component} />
 		</div>
 		<div class="mt-16 border-t-2 border-gray-500">
-			<div class="dark:text-white text-xl py-4">
-				Share this article:
-			</div>
+			<div class="dark:text-white text-xl py-4">Share this article:</div>
 			<Share />
 		</div>
 	</div>
-	
 </article>
 
 <Footer />
