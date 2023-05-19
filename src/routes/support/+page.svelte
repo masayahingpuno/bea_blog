@@ -17,8 +17,8 @@
 </svelte:head>
 
 <Header />
-<div class="dark dark:bg-gray-900  md:px-56 py-8 md:py-28">
-	<div class="px-4 md:px-0 text-xl md:text-3xl text-center text-black dark:text-white font-georgia">
+<div class=" dark:bg-gray-900  md:px-56 py-8 md:py-28">
+	<div class="px-4 md:px-0 text-xl md:text-3xl text-center text-gray-800 dark:text-white font-georgia">
 		Do you want to support my blog and help me find more stories so I can keep publishing more
 		content? Perhaps you just wish to show your appreciation or buy me a coffee? Whatever the reason
 		is, any amount of donation will be deeply appreciated. You can send me a message along with it

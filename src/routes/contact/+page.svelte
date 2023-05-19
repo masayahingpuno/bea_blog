@@ -21,7 +21,7 @@
 </svelte:head>
 
 <Header />
-<div class="dark dark:bg-gray-900 flex items-center justify-center md:flex-row flex-col py-16">
+<div class=" dark:bg-gray-900 flex items-center justify-center md:flex-row flex-col py-16">
 	<div class="flex items-center justify-start space-x-4 flex-col pb-8 md:pb-28 px-8 w-1/2">
 		<img src="heart.png" alt="logo" height="124" width="144" />
 		<div

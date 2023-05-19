@@ -75,13 +75,10 @@
 		</div>
 	</div>
 </div> -->
-<div class="hidden">
 
-	<DarkMode {btnClass} />
-</div>
 
 <Footer footerType="socialmedia">
-	<div class="dark md:flex md:justify-between">
+	<div class=" md:flex md:justify-between">
 		<div class="flex items-center justify-center md:justify-start md:items-start mb-6 md:mb-0 py-8 md:py-0">
 			<FooterBrand
 				href="/"

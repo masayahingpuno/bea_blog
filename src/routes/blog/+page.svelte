@@ -23,7 +23,7 @@
 </svelte:head>
 
 <Header />
-<div class="dark dark:bg-gray-900 flex flex-row pt-8 px-4">
+<div class=" dark:bg-gray-900 flex flex-row pt-8 px-4">
 	<div class="hidden md:block">
 		<Sidebar />
 	</div>

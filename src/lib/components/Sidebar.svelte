@@ -4,10 +4,10 @@
 
 <div
 	id="containerSidebar"
-	class="relative border-2 border-purple-400/20 rounded-lg shadow-md mb-8 pb-4 h-fit"
+	class="relative border-2 dark:border-purple-400/20 border-purple-400/80 rounded-lg shadow-md mb-8 pb-4 h-fit"
 >
-	<div id="topSidebar" class="bg-purple-dark relative blur-md items-center justify-center flex" />
-	<div class="dark:text-gray-100 absolute top-10 left-2 w-52 font-nunito text-md text-center p-4">
+	<div id="topSidebar" class="hidden dark:block  dark:blur-md items-center justify-center " />
+	<div class="dark:text-gray-100 dark:absolute dark:top-10 dark:left-2 w-52 font-nunito text-md text-center p-4">
 		When you have the heart of a priestess, you recognize your power and are dedicated to
 		deciphering the secrets of our world - while remaining temperate, kind, and compassionate.
 	</div>

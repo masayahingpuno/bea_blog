@@ -25,10 +25,10 @@
 
 <Header />
 <!-- main story -->
-<div class="dark dark:bg-gray-900 py-8 px-4 flex justify-around flex-row">
+<div class="dark:bg-gray-900 py-8 px-4 flex justify-around flex-row">
 	<div class="">
 		<div class="py-8 md:px-6 rounded-md flex flex-col items-start">
-			<div class="font-georgia font-bold text-black dark:text-white text-4xl md:p-4 text-center">
+			<div class="font-georgia font-bold text-gray-900 dark:text-white text-4xl md:p-4 text-center">
 				Towards Miracles and Mysticism: The Story of ‘Day Fe and the Wonders of Faith
 			</div>
 			<div class="px-4 flex-col lg:flex-row flex py-8 items-center">
@@ -40,7 +40,7 @@
 					class="border-4 border-purple-400/20 rounded-xl shadow-lg"
 				/>
 				<div class="flex flex-col items-center justify-center">
-					<div class="pt-4 lg:pt-0 md:px-8 text-xl text-center font-georgia dark:text-white">
+					<div class="pt-4 lg:pt-0 md:px-8 text-xl text-center font-georgia text-gray-800 dark:text-white">
 						Read the story of Day Fe, a healer who has been practicing her craft for more than 20
 						years, as she shares her journey towards miracles and mysticism including the
 						testimonies of her patients.
