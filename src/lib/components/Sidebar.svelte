@@ -4,12 +4,30 @@
 
 <div
 	id="containerSidebar"
-	class="relative border-2 dark:border-purple-400/20 border-purple-400/80 rounded-lg shadow-md mb-8 pb-4 h-fit"
+	class="relative border-2 dark:border-purple-400/40 border-purple-500/80 rounded-lg shadow-md mb-8 pb-4 h-fit"
 >
-	<div id="topSidebar" class="hidden dark:block  dark:blur-md items-center justify-center " />
-	<div class="dark:text-gray-100 dark:absolute dark:top-10 dark:left-2 w-52 font-nunito text-md text-center pt-10 dark:pt-0 px-4">
-		When you have the heart of a priestess, you recognize your power and are dedicated to
-		deciphering the secrets of our world - while remaining temperate, kind, and compassionate.
+	<div class="hidden dark:block">
+		<div id="topSidebar" class="hidden dark:block dark:blur-md items-center justify-center" />
+		<div
+			class="dark:text-gray-100 dark:absolute dark:top-10 dark:left-2 w-52 font-nunito text-md
+	text-center pt-10 dark:pt-0 px-4"
+		>
+			When you have the heart of a priestess, you recognize your power and are dedicated to
+			deciphering the secrets of our world - while remaining temperate, kind, and compassionate.
+		</div>
+	</div>
+
+	<!-- light mode -->
+	<div class="block dark:hidden">
+		<div id="topSidebar" class="bg-[#3A3553] dark:block dark:blur-md items-center justify-center">
+			<div
+				class="text-[#DDDAFF] dark:absolute dark:top-10 dark:left-2 w-52 font-nunito text-md
+			text-center pt-10 dark:pt-0 px-4"
+			>
+				When you have the heart of a priestess, you recognize your power and are dedicated to
+				deciphering the secrets of our world - while remaining temperate, kind, and compassionate.
+			</div>
+		</div>
 	</div>
 	<div class="flex items-center justify-center flex-col py-4">
 		<div class="dark:text-white text-center tracking-wider font-georgia leading-6 p-4 text-sm">

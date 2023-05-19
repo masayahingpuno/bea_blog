@@ -23,8 +23,9 @@
 		'text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg text-xl p-2';
 </script>
 
-<!-- <div
-	class="hidden md:block py-28 flex-col justify-center items-center space-y-12 bg-gradient-to-r from-cyan to-purple"
+<div
+	class="dark:bg-gray-900 hidden md:block py-28 flex-col justify-center items-center space-y-12 bg-gradient-to-r 
+	from-cyan-200 to-purple-400 border-t dark:border-gray-500 "
 >
 	<div class="flex flex-row space-x-4 items-center">
 		<div class="">
@@ -33,7 +34,7 @@
 		<div class="flex space-x-4">
 			{#each navigation as nav}
 				<a href={nav.href}>
-					<div class="text-white text-xl font-bold flex flex-row space-x-4">
+					<div class="dark:text-white text-gray-100 text-xl  flex flex-row space-x-4">
 						<div class="">{nav.name.toUpperCase()}</div>
 						<div class="">{lineBreak(nav.id)}</div>
 					</div>
@@ -50,7 +51,8 @@
 </div>
 
 <div
-	class="p-2 md:hidden flex-col justify-center items-center space-y-4 bg-gradient-to-r from-cyan to-purple"
+	class="dark:bg-gray-900 p-2 md:hidden flex-col justify-center items-center space-y-4 bg-gradient-to-r 
+	from-cyan to-purple"
 >
 	<div class="flex flex-col space-y-4 items-center justify-between">
 		<div class="">
@@ -74,10 +76,10 @@
 			WEBSITE DESIGN MADE WITH LOVE BY CHEMKIMISTRY 💖
 		</div>
 	</div>
-</div> -->
+</div>
 
 
-<Footer footerType="socialmedia">
+<!-- <Footer footerType="socialmedia">
 	<div class=" md:flex md:justify-between">
 		<div class="flex items-center justify-center md:justify-start md:items-start mb-6 md:mb-0 py-8 md:py-0">
 			<FooterBrand
@@ -145,4 +147,4 @@
 			</FooterIcon>
 		</div>
 	</div>
-</Footer>
+</Footer> -->
