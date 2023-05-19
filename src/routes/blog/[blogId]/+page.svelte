@@ -31,8 +31,8 @@
 	/>
 	<meta property="og:image" content="/dayfe.png" />
 	<meta property="og:image:alt" content="The Priestess Heart" />
-	<meta property="og:image:width" content="1200" />
-	<meta property="og:image:height" content="627" />
+	<meta property="og:image:width" content="512" />
+	<meta property="og:image:height" content="512" />
 
 	<link rel="icon" href="/favicon_io/favicon-32x32.png" />
 </svelte:head>
