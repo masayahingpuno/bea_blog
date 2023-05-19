@@ -28,7 +28,7 @@
 		property="og:description"
 		content="Read the story of Day Fe, a healer who has been practicing her craft for more than 20 years, as she shares her journey towards miracles and mysticism including the testimonies of her patients."
 	/>
-	<meta property="og:image" content="/heart.png" />
+	<meta property="og:image" content="/dayfe.png" />
 	<meta property="og:image:alt" content="The Priestess Heart" />
 	<meta property="og:image:width" content="1200" />
 	<meta property="og:image:height" content="627" />
