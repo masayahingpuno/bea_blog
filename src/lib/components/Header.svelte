@@ -10,11 +10,11 @@
 
 <div class="dark:bg-gray-900 hidden md:block  flex-col">
 	<div>
-		<img src="header_bg.png" alt="logo" class="absolute top-28 left-0" width="50" height="100" />
-		<img src="header_bg.png" alt="logo" class="absolute top-28 right-0" width="50" height="100" />
+		<img src="/header_bg.png" alt="logo" class="absolute top-28 left-0" width="50" height="100" />
+		<img src="/header_bg.png" alt="logo" class="absolute top-28 right-0" width="50" height="100" />
 	</div>
 	<div class="bg-gradient-to-r from-cyan-200 to-purple-500  p-16">
-		<img src="Group 13.png" alt="logo" class="w-1/2 mx-auto" />
+		<img src="/Group 13.png" alt="logo" class="w-1/2 mx-auto" />
 	</div>
 	<div class="flex flex-row bg-purple justify-center space-x-12 p-2 bg-purple-400 dark:bg-purple-600 mt-4">
 		{#each navigation as nav}
@@ -44,7 +44,7 @@
 	border-black/30 shadow-md"
 >
 	<div class="">
-		<img src="logo_name.png" alt="logo" width="200" height="80" />
+		<img src="/logo_name.png" alt="logo" width="200" height="80" />
 	</div>
 	<button
 		on:click={() => {
