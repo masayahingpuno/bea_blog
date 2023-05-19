@@ -98,7 +98,7 @@
 
 
 <div class="bg-gradient-to-r from-cyan-200 to-purple-600 dark:from-black dark:to-purple-600  p-6">
-	<img src="Group 13.png" alt="logo" class="w-1/2 mx-auto" />
+	<img src="/Group 13.png" alt="logo" class="w-1/2 mx-auto" />
 </div>
 <Navbar let:hidden let:toggle>
 	<NavBrand href="/">

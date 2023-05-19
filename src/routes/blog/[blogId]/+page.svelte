@@ -1,10 +1,10 @@
 <script lang="ts">
+	import Toc from 'svelte-toc';
 	import Blog from '$lib/components/Blog.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import Header from '$lib/components/Header.svelte';
 	import Share from '$lib/components/Share.svelte';
 	import Sidebar from '$lib/components/Sidebar.svelte';
-	import Toc from 'svelte-toc';
 
 	export let data;
 </script>
@@ -40,7 +40,11 @@
 <Header />
 <article class="dark dark:bg-gray-900 flex flex-row justify-center py-10">
 	<div class="prose dark:prose-invert">
-		<Toc />
+		<Toc>
+			<span class="hover:text-purple-500"  let:heading slot="toc-item">
+				{heading.innerText}
+			</span>
+		</Toc>
 	</div>
 
 	<!-- <div class="hidden md:block">

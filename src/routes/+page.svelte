@@ -6,7 +6,7 @@
 	import { format } from 'date-fns';
 	import Sidebar from '$lib/components/Sidebar.svelte';
 
-	const data = createBlogData(15);
+	const data = createBlogData(0);
 
 	let selectedBookmark = [0, 1, 2] as number[];
 
@@ -37,7 +37,7 @@
 					alt="feature story"
 					height="150"
 					width="500"
-					class="border-4 border-purple-400/20 rounded-xl shadow-lg"
+					class="border-4 dark:border-purple-400/20 border-purple-400/80 rounded-xl shadow-lg"
 				/>
 				<div class="flex flex-col items-center justify-center">
 					<div class="pt-4 lg:pt-0 md:px-8 text-xl text-center font-georgia text-gray-800 dark:text-white">
