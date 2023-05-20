@@ -39,7 +39,7 @@
 		<div class="dark:text-white text-center tracking-wider font-georgia leading-6 p-4 text-sm">
 			The original purpose of this blog was to publicize the findings of my research on the life of
 			a clairvoyant healer in Cebu. But I've decided that I should publish more than one content and
-			make this site functional. Here, you wild find articles, short essays, and poems about the
+			make this site functional. Here, you will find articles, short essays, and poems about the
 			lives and works of women. I believe there is a chock-full of hidden tales out there waiting to
 			be told and published for the world to know.
 		</div>

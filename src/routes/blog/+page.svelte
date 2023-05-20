@@ -43,7 +43,7 @@
 					viewBox="0 0 24 24"
 					stroke-width="1.5"
 					stroke="currentColor"
-					class="md:w-12 md:h-12 w-6 h-6 text-white"
+					class="md:w-12 md:h-12 w-6 h-6 dark:text-white text-gray-900"
 				>
 					<path
 						stroke-linecap="round"
@@ -54,17 +54,21 @@
 			</button>
 
 			<div
-				class={`bg-white  w-fit h-fit absolute right-16 top-0 border-gray/10 border shadow-md rounded-xl
+				class={`bg-white dark:bg-gray-900  w-fit h-fit absolute right-16 top-0 dark:border-gray-800 
+				border border-gray-100
+				
 			${showFilter ? 'visible' : 'invisible'} transition-all"`}
 			>
-				<div class="flex flex-col items-center justify-center">
+				<div class="flex flex-col items-center justify-center shadow-md rounded-xl">
 					<div
-						class="hover:bg-purple hover:text-white transition-all text-xl p-4 font-georgia font-medium"
+						class="hover:bg-purple dark:hover:text-white hover:bg-gray-300 transition-all text-xl 
+						p-4 font-georgia font-medium dark:text-white dark:hover:bg-gray-800"
 					>
 						Filter by date
 					</div>
 					<div
-						class="hover:bg-purple hover:text-white transition-all text-xl p-4 font-georgia font-medium"
+						class="hover:bg-purple dark:hover:text-white hover:bg-gray-200 transition-all text-xl 
+						p-4 font-georgia font-medium dark:text-white dark:hover:bg-gray-800"
 					>
 						Filter by title
 					</div>

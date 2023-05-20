@@ -32,7 +32,7 @@
 <article class=" dark:bg-gray-900 flex flex-row justify-center py-10">
 	<div class="prose dark:prose-invert">
 		<Toc
-			title="On this article"
+			title="In this article"
 			--toc-desktop-aside-margin="10em 0 0 0"
 			--toc-desktop-sticky-top="3em"
 			--toc-desktop-width="15em"
