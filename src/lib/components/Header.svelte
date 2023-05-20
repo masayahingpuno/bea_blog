@@ -3,7 +3,7 @@
 	import { DarkMode } from 'flowbite-svelte';
 	import { navigation } from '../utility/general';
 
-	let open = true;
+	let open = false;
 	let btnClass =
 		'text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 rounded-lg text-xl p-2';
 </script>
@@ -16,7 +16,7 @@
 	<div class="bg-gradient-to-r from-cyan-200 to-purple-500  p-16">
 		<img src="/Group 13.png" alt="logo" class="w-1/2 mx-auto" />
 	</div>
-	<div class="flex flex-row bg-purple justify-center space-x-12 p-2 bg-purple-400 dark:bg-purple-600 mt-4">
+	<div class="flex flex-row bg-purple justify-center space-x-12 p-2 bg-purple-400 dark:bg-purple-900 mt-4">
 		{#each navigation as nav}
 			<a on:click={() => currentNavigation.set(nav.href)} href={nav.href}>
 				<div
@@ -40,11 +40,13 @@
 
 
 <div
-	class="md:hidden bg-purple-400 dark:bg-purple-600  w-full px-5  pt-4 pb-2 flex flex-row 
+	class="md:hidden bg-purple-400 dark:bg-purple-900 w-full px-5  pt-4 pb-2 flex flex-row 
 	justify-between border-b border-black/30 shadow-md"
 >
 	<div class="">
-		<img src="/logo_name.png" alt="logo" width="200" height="80" />
+		<a href="/">
+			<img src="/logo_name.png" alt="logo" width="200" height="80" />
+		</a>
 	</div>
 	<button
 		on:click={() => {

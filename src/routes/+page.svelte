@@ -37,7 +37,7 @@
 					alt="feature story"
 					height="150"
 					width="500"
-					class="border-4 dark:border-purple-400/20 border-purple-400/80 rounded-xl shadow-lg"
+					class="border-4 dark:border-purple-900 border-purple-400 rounded-xl shadow-lg"
 				/>
 				<div class="flex flex-col items-center justify-center">
 					<div class="pt-4 lg:pt-0 md:px-8 text-xl text-center font-georgia text-gray-800 dark:text-white">
@@ -47,7 +47,8 @@
 					</div>
 					<div class="py-8">
 						<GradientButton size="xl" shadow color="purple">
-							<a href="blog/f0010287-13be-4842-89ee-7c116a4229e5" class="text-white font-bold font-georgia"> Read more </a>
+							<a href="blog/f0010287-13be-4842-89ee-7c116a4229e5" class="text-white font-bold 
+							font-georgia"> Read more </a>
 						</GradientButton>
 					</div>
 				</div>

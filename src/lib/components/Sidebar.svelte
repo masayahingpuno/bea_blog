@@ -10,7 +10,7 @@
 
 <div
 	id="containerSidebar"
-	class="relative border-2 dark:border-purple-400/40 border-purple-500/80 rounded-lg shadow-md mb-8 pb-4 h-fit"
+	class="relative border-2 dark:border-purple-900 border-purple-400 rounded-lg shadow-md mb-8 pb-4 h-fit"
 >
 	<div class="hidden dark:block">
 		<div id="topSidebar" class="hidden dark:block dark:blur-md items-center justify-center" />

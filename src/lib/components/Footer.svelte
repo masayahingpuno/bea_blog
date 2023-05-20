@@ -52,29 +52,29 @@
 
 <div
 	class="dark:bg-gray-900 p-2 md:hidden flex-col justify-center items-center space-y-4 bg-gradient-to-r 
-	from-cyan to-purple"
+	from-cyan to-purple pb-4 pt-8"
 >
 	<div class="flex flex-col space-y-4 items-center  justify-between">
 		<div class="">
 			<img src="/Group 13.png" alt="logo" class="" />
 		</div>
-		<div class="flex flex-row justify-around w-full items-center space-x-2">
-			{#each navigation as nav}
-				<a href={nav.href}>
-					<div class="text-white text-xs font-bold flex flex-row space-x-2">
-						<div class="">{nav.name.toUpperCase()}</div>
-					</div>
-				</a>
-			{/each}
-		</div>
 	</div>
-	<div class="flex items-center justify-center w-full flex-col space-y-4">
+	<div class="flex items-center justify-center w-full flex-col space-y-4 pt-2">
 		<div class="text-white text-sm text-center">
-			COPYRIGHT 2023 - The Priestess Heart - thepriestessheart@gmail.com | All Rights Reserved
+			COPYRIGHT 2023 - The Priestess Heart <br /> All Rights Reserved
 		</div>
-		<div class="text-white text-xs text-center">
+		<div class="text-white text-xs text-center pb-4 px-8">
 			WEBSITE DESIGN MADE WITH LOVE BY CHEMKIMISTRY 💖
 		</div>
+	</div>
+	<div class="flex flex-row justify-around w-full items-center space-x-2">
+		{#each navigation as nav}
+			<a href={nav.href}>
+				<div class="text-white text-xs font-bold flex flex-row space-x-2">
+					<div class="">{nav.name.toUpperCase()}</div>
+				</div>
+			</a>
+		{/each}
 	</div>
 </div>
 

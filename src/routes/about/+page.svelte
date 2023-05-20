@@ -14,7 +14,8 @@
 <Header />
 <div class=" dark:bg-gray-900 py-8 px-2  flex flex-col justify-center items-center">
 	<div class="">
-		<img src="bea.png" alt="logo" height="517" width="517" class="rounded-full border-8 border-purple-400 dark:border-purple-400/40 shadow-md" />
+		<img src="bea.png" alt="logo" height="517" width="517" class="rounded-full border-8 border-purple-400 
+		dark:border-purple-900 shadow-md" />
 	</div>
 	<div class="space-y-16 pb-8 pt-16 items-center justify-center md:px-40">
 		<div class="dark:text-white text-gray-800 text-lg md:text-2xl font-georgia text-center tracking-wider leading-10">
