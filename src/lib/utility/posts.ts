@@ -24,6 +24,7 @@ export const posts = Object.entries(
         return {
             ...globEntry.metadata,
             // generate the slug from the file path
+
             slug: filepath.slice(0, -3).split('/').pop() || '',
         };
     })

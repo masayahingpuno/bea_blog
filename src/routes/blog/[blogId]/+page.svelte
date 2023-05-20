@@ -68,7 +68,7 @@
 		</div>
 		<div class="w-full mt-4 mb-8" />
 		<div
-			class="prose lg:prose-md prose-slate dark:prose-invert prose-p:indent-12 prose-img:border-4
+			class="prose lg:prose-xl prose-slate dark:prose-invert prose-p:indent-12 prose-img:border-4
 			dark:prose-img:border-purple-800 prose-img:border-purple-400 prose-img:shadow-md prose-img:rounded-md
 			prose-img:mb-0 prose-em:text-sm dark:prose-em:text-gray-400 prose-em:text-gray-700 prose-em:italic
 			prose-h1:pt-4 prose-h2:pt-4 prose-headings:flex prose-headings:flex-col prose-headings:items-baseline

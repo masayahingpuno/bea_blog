@@ -14,7 +14,7 @@
 	import emailjs from '@emailjs/browser';
 
 	const PUBLIC_KEY = '4L2MXpBVNd02yhih8';
-	const SERVICE_ID = 'service_fxtauxu';
+	const SERVICE_ID = 'service_p3xlkl9';
 	const TEMPLATE_ID = 'template_1qpfvue';
 	let isSending = false;
 	let isSent = false;
