@@ -2,7 +2,7 @@
 	import { Facebook, Twitter, Email, Reddit } from 'svelte-share-buttons-component';
 
 	const title = 'Towards Miracles and Mysticism: The Story of ‘Day Fe and the Wonders of Faith';
-	const url = 'https://thepriestessheart.vercel.app/blog/blog01';
+	const url = 'https://thepriestessheart.com/blog/f0010287-13be-4842-89ee-7c116a4229e5';
 	const desc = 'Read the story of Day Fe, a healer who has been practicing her craft for more than 20 years, as she shares her journey towards miracles and mysticism including the testimonies of her patients.';
 </script>
 

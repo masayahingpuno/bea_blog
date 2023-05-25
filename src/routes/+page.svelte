@@ -26,6 +26,7 @@
 <Header />
 <!-- main story -->
 <div class="dark:bg-gray-900 py-8 px-4 flex justify-around flex-row">
+	
 	<div class="">
 		<div class="py-8 md:px-6 rounded-md flex flex-col items-start">
 			<div class="font-georgia font-bold text-gray-900 dark:text-white text-4xl md:p-4 text-center">
